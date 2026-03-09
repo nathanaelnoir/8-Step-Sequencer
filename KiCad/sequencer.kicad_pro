@@ -578,11 +578,11 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "intersheets_ref_own_page": false,
-      "intersheets_ref_prefix": "",
+      "intersheets_ref_own_page": true,
+      "intersheets_ref_prefix": "[",
       "intersheets_ref_short": false,
       "intersheets_ref_show": true,
-      "intersheets_ref_suffix": "",
+      "intersheets_ref_suffix": "]",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
@@ -599,7 +599,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://Template with logo.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -618,7 +618,15 @@
     ],
     [
       "b964167f-08d9-430a-9aa0-9a2613885304",
-      "Internal Clock"
+      "INTERNAL CLOCK"
+    ],
+    [
+      "6da73ad2-1669-4740-9ebd-dad26a4437f2",
+      "POWER & IDC CONNECTOR"
+    ],
+    [
+      "af5f9cff-4e95-4ed5-92aa-7f4edc9174b2",
+      "SWITCHES & LEDs"
     ]
   ],
   "text_variables": {}
