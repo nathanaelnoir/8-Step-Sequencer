@@ -1763,7 +1763,7 @@
 	)
 	(rectangle
 		(start 16.51 21.59)
-		(end 165.1 68.58)
+		(end 175.26 68.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1775,7 +1775,7 @@
 	)
 	(rectangle
 		(start 16.51 82.55)
-		(end 77.47 124.46)
+		(end 91.44 124.46)
 		(stroke
 			(width 0)
 			(type dash)
