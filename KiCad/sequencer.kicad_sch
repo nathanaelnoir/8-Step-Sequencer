@@ -1887,6 +1887,62 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 20.32 20.32)
+		(end 99.06 60.96)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c1b3b08-30c0-4929-95e5-8eb4ba91a93d)
+	)
+	(rectangle
+		(start 22.86 152.4)
+		(end 101.6 193.04)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e8a5215-ee4c-42f6-b8a3-2e86bea9d6e3)
+	)
+	(text "POWER EURORACK & IDC CONNECTOR\n"
+		(exclude_from_sim no)
+		(at 60.706 157.226 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "441acf85-3219-43fa-a78a-33dd6fee5654")
+	)
+	(text "INTERNAL CLOCK"
+		(exclude_from_sim no)
+		(at 39.116 25.146 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8709f69f-f7a4-4ce3-a00e-f00fd9fdfeea")
+	)
+	(junction
+		(at 215.9 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd5c82c-74d8-4062-99a5-442a4519f8d6")
+	)
+	(junction
+		(at 229.87 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193c526e-9c45-4f85-b668-2b126d799fce")
+	)
 	(junction
 		(at 85.09 100.33)
 		(diameter 0)
@@ -1936,12 +1992,6 @@
 		(uuid "5810b1d3-3401-40cc-ae75-c4c12f2960df")
 	)
 	(junction
-		(at 266.7 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aa85b42-74b9-4869-92cb-17d21128654f")
-	)
-	(junction
 		(at 31.75 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1964,12 +2014,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89952900-16d2-49cf-b3f9-3733a2988d85")
-	)
-	(junction
-		(at 266.7 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98c45813-9b15-42f6-8a30-3214dafaef41")
 	)
 	(junction
 		(at 218.44 73.66)
@@ -2027,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 143.51) (xy 215.9 146.05)
+			(xy 215.9 143.51) (xy 215.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 120.65) (xy 264.16 120.65)
+			(xy 264.16 120.65) (xy 266.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2134,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "1558a1c5-9141-445f-b147-236c3a70b624")
+	)
+	(wire
+		(pts
+			(xy 116.84 142.24) (xy 116.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192c7b3f-1ac4-4d5d-a89f-13b09d61cbe6")
 	)
 	(wire
 		(pts
@@ -2247,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 95.25) (xy 33.02 95.25)
+			(xy 31.75 95.25) (xy 29.21 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2284,6 +2338,16 @@
 			(type default)
 		)
 		(uuid "3c9707bf-5e22-4551-9245-6178de1698ec")
+	)
+	(wire
+		(pts
+			(xy 212.09 149.86) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db03ef1-0c4e-46ca-840d-91cc19aac81f")
 	)
 	(wire
 		(pts
@@ -2347,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 149.86) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506acfd1-40bf-4a25-b4b2-f6e4f27b74e5")
+	)
+	(wire
+		(pts
 			(xy 215.9 134.62) (xy 215.9 135.89)
 		)
 		(stroke
@@ -2377,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 35.56) (xy 48.26 35.56)
+			(xy 69.85 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 80.01) (xy 33.02 80.01)
+			(xy 36.83 83.82) (xy 31.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 80.01) (xy 33.02 95.25)
+			(xy 31.75 83.82) (xy 31.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2507,6 +2581,36 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 144.78) (xy 229.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72931395-a477-4be0-a307-223e88bb5101")
+	)
+	(wire
+		(pts
+			(xy 229.87 144.78) (xy 229.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f492c0-2227-4749-874d-c869d5cb4116")
+	)
+	(wire
+		(pts
+			(xy 212.09 144.78) (xy 215.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c750d41-918d-4aaa-99fc-544e45bae957")
+	)
+	(wire
+		(pts
 			(xy 252.73 91.44) (xy 252.73 92.71)
 		)
 		(stroke
@@ -2547,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 130.81) (xy 118.11 130.81)
+			(xy 116.84 142.24) (xy 118.11 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 143.51) (xy 229.87 146.05)
+			(xy 229.87 143.51) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 80.01) (xy 264.16 80.01)
+			(xy 264.16 80.01) (xy 266.7 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2654,16 +2758,6 @@
 			(type default)
 		)
 		(uuid "9c353b67-444f-4c5a-bba5-816515e99c34")
-	)
-	(wire
-		(pts
-			(xy 63.5 35.56) (xy 63.5 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dbebfc7-77ef-47ad-ba18-f61422556cfa")
 	)
 	(wire
 		(pts
@@ -2777,16 +2871,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 120.65) (xy 266.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c631f433-e391-4ac8-b471-64b0796ffb78")
-	)
-	(wire
-		(pts
 			(xy 118.11 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -2827,16 +2911,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 77.47 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3215c2-3be8-4944-b261-32e04851b7bb")
-	)
-	(wire
-		(pts
 			(xy 241.3 129.54) (xy 256.54 129.54)
 		)
 		(stroke
@@ -2864,6 +2938,16 @@
 			(type default)
 		)
 		(uuid "dd39f8fe-74c9-4bf3-af4a-bb59d3cbc9fb")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e578dae0-9000-4f11-bab5-5069337986e4")
 	)
 	(wire
 		(pts
@@ -2937,13 +3021,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 80.01) (xy 266.7 80.01)
+			(xy 215.9 144.78) (xy 215.9 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb9104b5-90cf-404c-8737-a3b3678be6f4")
+		(uuid "fdd02696-9862-4757-8014-f847b2b21507")
 	)
 	(wire
 		(pts
@@ -2964,6 +3048,48 @@
 			(type default)
 		)
 		(uuid "ff632fdb-74fb-42d1-bf45-58da6bd15fb3")
+	)
+	(global_label "INTERNAL CLOCK"
+		(shape input)
+		(at 36.83 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fb59197-61e7-4053-b6d5-35fc4e7e26e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7205 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "INTERNAL CLOCK"
+		(shape output)
+		(at 69.85 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6283ce57-d8bc-40b9-9d92-1fe3cbe5bb54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.7405 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "+12V"
 		(shape input)
@@ -6386,7 +6512,7 @@
 		)
 	)
 	(sheet
-		(at 19.05 170.18)
+		(at 43.18 165.1)
 		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6402,7 +6528,7 @@
 		)
 		(uuid "6da73ad2-1669-4740-9ebd-dad26a4437f2")
 		(property "Sheetname" "POWER & IDC CONNECTOR"
-			(at 19.05 169.4684 0)
+			(at 43.18 164.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6537,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 19.05 191.0846 0)
+			(at 43.18 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6555,7 @@
 	)
 	(sheet
 		(at 118.11 119.38)
-		(size 38.1 15.24)
+		(size 38.1 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6453,7 +6579,7 @@
 			)
 		)
 		(property "Sheetfile" "switches_led.kicad_sch"
-			(at 118.11 135.2046 0)
+			(at 118.11 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6618,7 @@
 			)
 		)
 		(pin "EXTERNAL RESET" input
-			(at 118.11 130.81 180)
+			(at 118.11 142.24 180)
 			(uuid "c8e6bbdd-c3fc-423d-9ee1-c4b130e3a6e6")
 			(effects
 				(font
@@ -6510,7 +6636,7 @@
 		)
 	)
 	(sheet
-		(at 19.05 27.94)
+		(at 35.56 35.56)
 		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6526,7 +6652,7 @@
 		)
 		(uuid "b964167f-08d9-430a-9aa0-9a2613885304")
 		(property "Sheetname" "INTERNAL CLOCK"
-			(at 19.05 27.2284 0)
+			(at 35.56 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6661,7 @@
 			)
 		)
 		(property "Sheetfile" "internal_clock.kicad_sch"
-			(at 19.05 43.7646 0)
+			(at 35.56 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +6670,7 @@
 			)
 		)
 		(pin "Int_Clock_Out" output
-			(at 48.26 35.56 0)
+			(at 64.77 43.18 0)
 			(uuid "6630eda5-6841-4f43-a0a5-544e276f2bd1")
 			(effects
 				(font
