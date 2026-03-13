@@ -618,15 +618,15 @@
     ],
     [
       "b964167f-08d9-430a-9aa0-9a2613885304",
-      "INTERNAL CLOCK"
+      "Internal Clock"
     ],
     [
       "6da73ad2-1669-4740-9ebd-dad26a4437f2",
-      "POWER & IDC CONNECTOR"
+      "Power & IDC Connector"
     ],
     [
       "af5f9cff-4e95-4ed5-92aa-7f4edc9174b2",
-      "SWITCHES & LEDs"
+      "CD4017BE"
     ]
   ],
   "text_variables": {}
