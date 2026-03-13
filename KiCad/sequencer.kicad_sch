@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "8 Step Sequencer")
-		(date "2026-03-09")
+		(date "2026-03-13")
 		(rev "v0.0")
 		(company "Dirty Dream - Nathanael Noir")
 	)
@@ -2322,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 116.84 130.81)
+			(xy 116.84 138.43) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 64.77) (xy 265.43 64.77)
+			(xy 252.73 63.5) (xy 265.43 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 118.11 142.24)
+			(xy 116.84 138.43) (xy 118.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 66.04) (xy 252.73 64.77)
+			(xy 252.73 66.04) (xy 252.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 87.63 123.19)
+			(xy 87.63 100.33) (xy 87.63 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3009,6 +3009,16 @@
 			(type default)
 		)
 		(uuid "a4bac0f8-c322-45e4-8f3c-241d364ec6b1")
+	)
+	(wire
+		(pts
+			(xy 265.43 55.88) (xy 265.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4da5161-c086-4b55-9263-9e356c99086a")
 	)
 	(wire
 		(pts
@@ -3112,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 123.19) (xy 118.11 123.19)
+			(xy 87.63 125.73) (xy 118.11 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4122,7 +4132,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 265.43 64.77 0)
+		(at 265.43 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4132,7 +4142,7 @@
 		(fields_autoplaced yes)
 		(uuid "4836a01e-1f97-421d-b799-6f41d35db978")
 		(property "Reference" "#PWR033"
-			(at 265.43 68.58 0)
+			(at 265.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4151,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 265.43 59.69 0)
+			(at 265.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 64.77 0)
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 64.77 0)
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 265.43 64.77 0)
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7160,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6da73ad2-1669-4740-9ebd-dad26a4437f2")
-		(property "Sheetname" "POWER & IDC CONNECTOR"
+		(property "Sheetname" "Power & IDC Connector"
 			(at 43.18 166.9284 0)
 			(effects
 				(font
@@ -7192,7 +7202,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "af5f9cff-4e95-4ed5-92aa-7f4edc9174b2")
-		(property "Sheetname" "SWITCHES & LEDs"
+		(property "Sheetname" "CD4017BE"
 			(at 118.11 118.6684 0)
 			(effects
 				(font
@@ -7231,7 +7241,7 @@
 			)
 		)
 		(pin "EXTERNAL CLOCK" input
-			(at 118.11 123.19 180)
+			(at 118.11 125.73 180)
 			(uuid "e0035706-6ea2-4120-ac11-beb8acbe5b42")
 			(effects
 				(font
@@ -7241,7 +7251,7 @@
 			)
 		)
 		(pin "EXTERNAL RESET" input
-			(at 118.11 142.24 180)
+			(at 118.11 138.43 180)
 			(uuid "c8e6bbdd-c3fc-423d-9ee1-c4b130e3a6e6")
 			(effects
 				(font
@@ -7274,7 +7284,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b964167f-08d9-430a-9aa0-9a2613885304")
-		(property "Sheetname" "INTERNAL CLOCK"
+		(property "Sheetname" "Internal Clock"
 			(at 27.94 34.8484 0)
 			(effects
 				(font
