@@ -2845,76 +2845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 38.1 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33efce0b-aafc-4ffc-b5dc-4820fad1f306")
-		(property "Reference" "C2"
-			(at 41.91 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 41.91 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.0652 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf7f9c0e-5f2d-4e08-bcde-8745f8a38158")
-		)
-		(pin "2"
-			(uuid "20156bdf-2ddf-464c-8037-7ed481d4f560")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/6da73ad2-1669-4740-9ebd-dad26a4437f2"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 50.8 0)
 		(mirror y)
@@ -3048,6 +2978,76 @@
 			(project ""
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/6da73ad2-1669-4740-9ebd-dad26a4437f2"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 38.1 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6803f659-4315-4af7-8718-f15b975f3128")
+		(property "Reference" "C2"
+			(at 37.592 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 44.704 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 37.1348 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0a4d49d-218e-4375-b628-9237b1521ab5")
+		)
+		(pin "1"
+			(uuid "00e9c53a-7faf-4b16-8f60-a037727c13c3")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/6da73ad2-1669-4740-9ebd-dad26a4437f2"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3527,6 +3527,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 38.1 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c84c89-03ed-4e02-9c4f-39cde897cf91")
+		(property "Reference" "C1"
+			(at 37.592 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 44.704 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 37.1348 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2d659cf-ecb7-41f7-91de-a1f878481778")
+		)
+		(pin "1"
+			(uuid "14334e5d-f3fb-452d-b1d1-89132630e952")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/6da73ad2-1669-4740-9ebd-dad26a4437f2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 57.15 87.63 0)
 		(mirror y)
@@ -3588,76 +3658,6 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/6da73ad2-1669-4740-9ebd-dad26a4437f2"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 38.1 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccc0263f-bfae-45d3-87c8-d7240b6d4cef")
-		(property "Reference" "C1"
-			(at 41.91 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 41.91 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.0652 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07f1fdf2-32ae-44ed-bf09-7568c5125ebc")
-		)
-		(pin "2"
-			(uuid "01a88eec-86a1-47dd-9538-8795be83458e")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/6da73ad2-1669-4740-9ebd-dad26a4437f2"
-					(reference "C1")
 					(unit 1)
 				)
 			)
