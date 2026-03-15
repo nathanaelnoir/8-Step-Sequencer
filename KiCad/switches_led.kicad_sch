@@ -5848,7 +5848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0321bda3-f711-4a9d-9b55-6a7c8d5d13df")
-		(property "Reference" "D29"
+		(property "Reference" "D11"
 			(at 193.294 40.64 0)
 			(effects
 				(font
@@ -6026,7 +6026,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D29")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6042,7 +6042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b10c54-7836-4023-a75a-05795f019b30")
-		(property "Reference" "D16"
+		(property "Reference" "D21"
 			(at 29.083 105.41 0)
 			(effects
 				(font
@@ -6202,7 +6202,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D16")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -6218,7 +6218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd8aa22-4844-4c21-a00e-c9b7eed81dc1")
-		(property "Reference" "R31"
+		(property "Reference" "R24"
 			(at 185.42 66.0399 0)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R31")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6395,7 +6395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e0fb790-3cbf-4f5d-a15c-7796b74b6781")
-		(property "Reference" "D28"
+		(property "Reference" "D23"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -6573,7 +6573,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D28")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -6588,7 +6588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f072529-fe65-4d6d-b490-3d5f99ac2acd")
-		(property "Reference" "RV3"
+		(property "Reference" "RV5"
 			(at 246.126 42.672 0)
 			(effects
 				(font
@@ -6764,7 +6764,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV3")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -6780,7 +6780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "276da25c-9c28-4600-be4a-2e4b5c727b30")
-		(property "Reference" "R17"
+		(property "Reference" "R21"
 			(at 22.86 49.022 90)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R17")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6957,7 +6957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2894f545-1ab2-476b-a441-b3ec92a064cd")
-		(property "Reference" "D13"
+		(property "Reference" "D9"
 			(at 29.083 38.1 0)
 			(effects
 				(font
@@ -7117,7 +7117,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e05ae23-173a-4fdb-9cb8-927355ef7142")
-		(property "Reference" "R27"
+		(property "Reference" "R32"
 			(at 22.86 163.322 90)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R27")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -7309,7 +7309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e4766b1-1654-438c-8766-192cfa552c42")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 38.1 176.53 0)
 			(effects
 				(font
@@ -7359,7 +7359,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR018")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7375,7 +7375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ea547b8-04c3-4406-8c26-ca9527ba62d5")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 22.86 139.192 90)
 			(effects
 				(font
@@ -7535,7 +7535,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R25")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7551,7 +7551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "331129a9-97b1-4ae6-b1f7-44a01f181749")
-		(property "Reference" "R24"
+		(property "Reference" "R31"
 			(at 49.53 144.272 90)
 			(effects
 				(font
@@ -7711,7 +7711,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R24")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "338ff8a6-2e84-4ad8-8707-55023e195924")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 151.13 39.37 0)
 			(effects
 				(font
@@ -7778,7 +7778,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7793,7 +7793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "351eff01-b7b5-49ba-b8f6-e53146495cc3")
-		(property "Reference" "TP7"
+		(property "Reference" "TP12"
 			(at 273.05 33.0199 90)
 			(effects
 				(font
@@ -7952,7 +7952,7 @@
 		(instances
 			(project ""
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "TP7")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d61e6c-ba2f-4ac7-b576-2c30bd15a2d6")
-		(property "Reference" "D25"
+		(property "Reference" "D16"
 			(at 262.89 77.47 0)
 			(effects
 				(font
@@ -8329,7 +8329,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D25")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36f0d43d-9f02-4272-b752-00d23ab3a58a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 36.83 152.4 0)
 			(effects
 				(font
@@ -8395,7 +8395,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR017")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8411,7 +8411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "386f016e-5511-415c-8b37-4171a2e24ba5")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 74.676 43.434 0)
 			(effects
 				(font
@@ -8591,7 +8591,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8607,7 +8607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3afe9afc-f1cb-47b6-9105-7307ee75bc27")
-		(property "Reference" "R29"
+		(property "Reference" "R34"
 			(at 24.13 186.182 90)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R29")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8783,7 +8783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b0d761c-616c-4b37-906e-28459ad74d79")
-		(property "Reference" "SW7"
+		(property "Reference" "SW9"
 			(at 66.04 151.13 0)
 			(effects
 				(font
@@ -8946,7 +8946,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW7")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -8962,7 +8962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bc0b929-733f-4e90-aa8e-fa0524251e78")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR034"
 			(at 36.83 106.68 0)
 			(effects
 				(font
@@ -9012,7 +9012,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR015")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9027,7 +9027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e3ef845-6f90-47f2-a3f8-f1a60f164d62")
-		(property "Reference" "D22"
+		(property "Reference" "D10"
 			(at 262.89 40.894 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D22")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9220,7 +9220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43af81d4-f585-43b2-9757-413d7a3820cf")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR036"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -9270,7 +9270,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR025")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9398,7 +9398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513c4c3f-6d25-4131-9357-90d0511617b2")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 171.45 121.92 0)
 			(effects
 				(font
@@ -9586,7 +9586,7 @@
 		(instances
 			(project ""
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -9602,7 +9602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5217ccce-ab5e-4444-a52d-4dbf91a85298")
-		(property "Reference" "D12"
+		(property "Reference" "D5"
 			(at 29.718 19.558 0)
 			(effects
 				(font
@@ -9762,7 +9762,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D12")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9778,7 +9778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5abf0e0b-598f-40f4-8095-97fa104ca276")
-		(property "Reference" "R14"
+		(property "Reference" "R20"
 			(at 48.26 32.512 90)
 			(effects
 				(font
@@ -9939,7 +9939,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9955,7 +9955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "693d1032-341c-48f4-a5f4-29b25adcecf0")
-		(property "Reference" "R28"
+		(property "Reference" "R35"
 			(at 49.53 191.262 90)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R28")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10314,7 +10314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f2d5455-c082-4aa3-bb6b-bb1e2995dc0e")
-		(property "Reference" "RV4"
+		(property "Reference" "RV6"
 			(at 246.126 55.372 0)
 			(effects
 				(font
@@ -10490,7 +10490,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV4")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -10506,7 +10506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "727a515f-de3b-4dfd-a8df-13cff63d4e05")
-		(property "Reference" "D9"
+		(property "Reference" "D29"
 			(at 74.93 181.61 0)
 			(effects
 				(font
@@ -10686,7 +10686,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D9")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -10702,7 +10702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a0bfa36-9b6d-44a0-b49c-a4c287370f28")
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -10865,7 +10865,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -10881,7 +10881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac2a7ef-8467-401a-b7ff-e69667466642")
-		(property "Reference" "D23"
+		(property "Reference" "D12"
 			(at 262.89 53.34 0)
 			(effects
 				(font
@@ -11059,7 +11059,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D23")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11075,7 +11075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b75aa15-7c4e-435f-91f6-4ea959a9ed2e")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 48.26 54.102 90)
 			(effects
 				(font
@@ -11235,7 +11235,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R16")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11251,7 +11251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ba7ac91-d9ed-4953-a659-dd37449502b5")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 74.676 22.86 0)
 			(effects
 				(font
@@ -11431,7 +11431,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11447,7 +11447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c39d181-746c-4a5f-86df-41be28f80392")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 22.86 27.432 90)
 			(effects
 				(font
@@ -11607,7 +11607,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11623,7 +11623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6359f8-388e-4209-bb1c-c07267fa301a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR035"
 			(at 36.83 129.54 0)
 			(effects
 				(font
@@ -11673,7 +11673,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR016")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11689,7 +11689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c7012ec-e229-4370-a41c-c8a3acebcac9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR027"
 			(at 36.83 40.64 0)
 			(effects
 				(font
@@ -11739,7 +11739,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR02")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11938,7 +11938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2f503b-4ba2-4641-a368-016e9a1844db")
-		(property "Reference" "RV8"
+		(property "Reference" "RV10"
 			(at 246.126 102.87 0)
 			(effects
 				(font
@@ -12114,7 +12114,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV8")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -12131,7 +12131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e604535-8b05-4a4f-873b-0b884e313873")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR033"
 			(at 168.91 83.82 0)
 			(effects
 				(font
@@ -12181,7 +12181,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR026")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12197,7 +12197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83a70573-d06f-4140-a5db-79974410d901")
-		(property "Reference" "D5"
+		(property "Reference" "D18"
 			(at 75.438 89.154 0)
 			(effects
 				(font
@@ -12377,7 +12377,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D5")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -12393,7 +12393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85b9310d-ecf3-4466-b96c-0cffc21968a9")
-		(property "Reference" "D11"
+		(property "Reference" "D24"
 			(at 73.66 133.096 0)
 			(effects
 				(font
@@ -12573,7 +12573,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D11")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -12589,7 +12589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86e0f5dd-42ab-4932-bc30-a45fb9e95a34")
-		(property "Reference" "R20"
+		(property "Reference" "R27"
 			(at 48.26 98.552 90)
 			(effects
 				(font
@@ -12749,7 +12749,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R20")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -12766,7 +12766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877c07c5-0cc9-4070-a16a-109c95d62c5e")
-		(property "Reference" "SW8"
+		(property "Reference" "SW10"
 			(at 66.04 173.99 0)
 			(effects
 				(font
@@ -12929,7 +12929,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW8")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -12946,7 +12946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8969410b-c37a-418d-b4fe-c640b11f337d")
-		(property "Reference" "D15"
+		(property "Reference" "D17"
 			(at 29.083 82.55 0)
 			(effects
 				(font
@@ -13106,7 +13106,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D15")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -13121,7 +13121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a2c3039-8ef6-4d8f-8b89-19fcab3fc30b")
-		(property "Reference" "RV5"
+		(property "Reference" "RV7"
 			(at 246.126 66.802 0)
 			(effects
 				(font
@@ -13297,7 +13297,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV5")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -13313,7 +13313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "942a5c89-34c4-473d-887b-7bab46dbe2ca")
-		(property "Reference" "D18"
+		(property "Reference" "D27"
 			(at 30.353 152.4 0)
 			(effects
 				(font
@@ -13473,7 +13473,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D18")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -13488,7 +13488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9818a8e5-be96-4054-8a47-65af9c2dee42")
-		(property "Reference" "D24"
+		(property "Reference" "D15"
 			(at 263.144 64.77 0)
 			(effects
 				(font
@@ -13666,7 +13666,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D24")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -13681,7 +13681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9911850c-c656-4cc7-9e45-9e62f247185b")
-		(property "Reference" "RV7"
+		(property "Reference" "RV9"
 			(at 246.126 91.44 0)
 			(effects
 				(font
@@ -13857,7 +13857,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV7")
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -13873,7 +13873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9baeb500-2e2f-4221-8d7d-683384c9a7d0")
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 65.786 129.794 0)
 			(effects
 				(font
@@ -14036,7 +14036,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW6")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -14052,7 +14052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d4d505a-e51a-4301-aacb-3bf260282c00")
-		(property "Reference" "R18"
+		(property "Reference" "R25"
 			(at 48.26 75.692 90)
 			(effects
 				(font
@@ -14212,7 +14212,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R18")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -14228,7 +14228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a10fc8ef-7c2a-4066-8eb1-0e28f293ef23")
-		(property "Reference" "Q1"
+		(property "Reference" "Q9"
 			(at 35.56 189.2301 0)
 			(effects
 				(font
@@ -14396,7 +14396,7 @@
 		(instances
 			(project ""
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "Q1")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -14411,7 +14411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46f3060-0555-41d6-85b3-f7411007f4a6")
-		(property "Reference" "D26"
+		(property "Reference" "D19"
 			(at 262.89 88.9 0)
 			(effects
 				(font
@@ -14589,7 +14589,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D26")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -14604,7 +14604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5452956-9b79-40ec-85db-cf754a1f1fef")
-		(property "Reference" "RV9"
+		(property "Reference" "RV11"
 			(at 246.126 114.046 0)
 			(effects
 				(font
@@ -14780,7 +14780,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV9")
+					(reference "RV11")
 					(unit 1)
 				)
 			)
@@ -14796,7 +14796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a69660cc-6337-4e42-a1c0-4065c24d2bb0")
-		(property "Reference" "R26"
+		(property "Reference" "R33"
 			(at 49.53 168.402 90)
 			(effects
 				(font
@@ -14956,7 +14956,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R26")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -15340,7 +15340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aedb2fbf-d181-4a44-b719-f14b89881b51")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 66.04 39.624 0)
 			(effects
 				(font
@@ -15503,7 +15503,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -15519,7 +15519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b20fcb49-28db-4eff-b105-5d6019ad506e")
-		(property "Reference" "R19"
+		(property "Reference" "R23"
 			(at 22.86 70.612 90)
 			(effects
 				(font
@@ -15679,7 +15679,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R19")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -15696,7 +15696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2e19b79-d389-4e89-8ccc-cafb1e485501")
-		(property "Reference" "D14"
+		(property "Reference" "D13"
 			(at 29.083 59.69 0)
 			(effects
 				(font
@@ -15856,7 +15856,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -16050,7 +16050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6cc3ca0-5fa6-489e-8019-ee884d39e4b5")
-		(property "Reference" "D19"
+		(property "Reference" "D28"
 			(at 30.353 175.26 0)
 			(effects
 				(font
@@ -16210,7 +16210,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D19")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -16225,7 +16225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba1f1745-6c91-415a-b23a-96302f4af2fc")
-		(property "Reference" "D27"
+		(property "Reference" "D20"
 			(at 262.636 100.33 0)
 			(effects
 				(font
@@ -16403,7 +16403,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D27")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -16419,7 +16419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bca6146a-7233-4845-9168-c08b00f72683")
-		(property "Reference" "D21"
+		(property "Reference" "D7"
 			(at 262.89 27.94 0)
 			(effects
 				(font
@@ -16597,7 +16597,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D21")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16612,7 +16612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4a1e81d-6a78-48ee-a27f-4a36921f8f6b")
-		(property "Reference" "RV6"
+		(property "Reference" "RV8"
 			(at 246.126 79.502 0)
 			(effects
 				(font
@@ -16788,7 +16788,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV6")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -16805,7 +16805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6631a6b-69c3-4d52-8079-f866c2a118eb")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR026"
 			(at 19.05 25.4 0)
 			(effects
 				(font
@@ -16855,7 +16855,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR031")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16871,7 +16871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85fa7c6-8040-420e-99c6-c8acf09b8b54")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR039"
 			(at 38.1 199.39 0)
 			(effects
 				(font
@@ -16921,7 +16921,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR019")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16936,7 +16936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb04335-b5fc-4af2-bc08-ea3a3a9ac7c4")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 110.49 81.28 0)
 			(effects
 				(font
@@ -16987,7 +16987,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17003,7 +17003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccf3349e-5cb5-4779-9620-2491f7e9a939")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 48.26 121.412 90)
 			(effects
 				(font
@@ -17163,7 +17163,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -17180,7 +17180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd71030b-cd52-4cec-9101-e1f005200ce7")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 163.83 48.26 0)
 			(effects
 				(font
@@ -17230,7 +17230,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17246,7 +17246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dba82a71-a117-400e-adf2-00eaafadd6b2")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 22.86 93.472 90)
 			(effects
 				(font
@@ -17406,7 +17406,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -17422,7 +17422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc113f3f-e67a-4811-a2bf-8bdf23b7ddeb")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 66.04 18.796 0)
 			(effects
 				(font
@@ -17585,7 +17585,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -17600,7 +17600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc550ddb-95e9-4a9b-8b85-54ce0165f671")
-		(property "Reference" "RV2"
+		(property "Reference" "RV4"
 			(at 246.126 29.972 0)
 			(effects
 				(font
@@ -17776,7 +17776,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV2")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -17792,7 +17792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6634cd8-5d8a-4f7d-a762-02cfd6c7f7e5")
-		(property "Reference" "D6"
+		(property "Reference" "D14"
 			(at 77.216 64.516 0)
 			(effects
 				(font
@@ -17972,7 +17972,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D6")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -17988,7 +17988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e74b7c27-f67b-44f5-b2ae-063fce332bc4")
-		(property "Reference" "SW5"
+		(property "Reference" "SW6"
 			(at 66.04 107.95 0)
 			(effects
 				(font
@@ -18151,7 +18151,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW5")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -18351,7 +18351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec2efeee-0e2d-49b0-92b2-b4b120dde6eb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR030"
 			(at 36.83 62.23 0)
 			(effects
 				(font
@@ -18401,7 +18401,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR03")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18417,7 +18417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed4fdf1b-2ad8-4460-b96c-630241f96172")
-		(property "Reference" "D4"
+		(property "Reference" "D22"
 			(at 74.676 112.014 0)
 			(effects
 				(font
@@ -18597,7 +18597,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D4")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -18797,7 +18797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f18fdddb-b80e-4e3e-b283-53d05ce4736a")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 22.86 116.332 90)
 			(effects
 				(font
@@ -18957,7 +18957,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -18973,7 +18973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faa5c8ba-b534-4601-8887-b1096eda3d61")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 66.294 62.484 0)
 			(effects
 				(font
@@ -19136,7 +19136,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -19152,7 +19152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fca278aa-caf0-49cd-b5b2-8ebbe337a7dc")
-		(property "Reference" "D17"
+		(property "Reference" "D25"
 			(at 28.956 127 0)
 			(effects
 				(font
@@ -19312,7 +19312,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D17")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -19328,7 +19328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe5781dc-c265-4b40-931d-1623244c82db")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR032"
 			(at 36.83 83.82 0)
 			(effects
 				(font
@@ -19378,7 +19378,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "#PWR014")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19394,7 +19394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feead8d0-6436-41e2-a60f-80fdb9eb4c2e")
-		(property "Reference" "D10"
+		(property "Reference" "D26"
 			(at 74.168 157.226 0)
 			(effects
 				(font
@@ -19574,7 +19574,7 @@
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "D10")
+					(reference "D26")
 					(unit 1)
 				)
 			)
