@@ -4197,7 +4197,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:3296W1503LF"
 			(at 215.9 149.86 0)
 			(effects
 				(font
@@ -8091,7 +8091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 203.2 142.24 0)
 			(effects
 				(font
@@ -9179,7 +9179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:3296W1503LF"
 			(at 229.87 149.86 0)
 			(effects
 				(font

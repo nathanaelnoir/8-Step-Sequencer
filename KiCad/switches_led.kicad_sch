@@ -8799,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 170.18 0)
 			(effects
 				(font
@@ -10718,7 +10718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 193.04 0)
 			(effects
 				(font
@@ -13889,7 +13889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 144.78 0)
 			(effects
 				(font
@@ -15356,7 +15356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 54.61 0)
 			(effects
 				(font
@@ -17438,7 +17438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 34.29 0)
 			(effects
 				(font
@@ -18004,7 +18004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -18989,7 +18989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
 			(at 66.04 77.47 0)
 			(effects
 				(font
