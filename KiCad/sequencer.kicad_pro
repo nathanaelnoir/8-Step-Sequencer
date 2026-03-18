@@ -658,6 +658,36 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -713,16 +743,16 @@
       "Root"
     ],
     [
+      "af5f9cff-4e95-4ed5-92aa-7f4edc9174b2",
+      "CD4017BE"
+    ],
+    [
       "b964167f-08d9-430a-9aa0-9a2613885304",
       "Internal Clock"
     ],
     [
       "6da73ad2-1669-4740-9ebd-dad26a4437f2",
       "Power & IDC Connector"
-    ],
-    [
-      "af5f9cff-4e95-4ed5-92aa-7f4edc9174b2",
-      "CD4017BE"
     ]
   ],
   "text_variables": {}
