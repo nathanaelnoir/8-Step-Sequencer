@@ -1398,338 +1398,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Eurorack:SR1712F-0108-20F0A-N9-N-027"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 21.59 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SR1712F-0108-20F0A-N9-N-027"
-				(at 21.59 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Eurorack:1 Pole 8 Step Switch Alpha"
-				(at 21.59 -89.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=222"
-				(at 21.59 -189.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary Switches 1 POLE 8 POS D SHAFT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "27.5"
-				(at 21.59 -389.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "105-SR1712F-18NS"
-				(at 21.59 -489.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027?qs=8%252Br4Hz5Xir90vqVXg0QR9g%3D%3D"
-				(at 21.59 -589.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Alpha (Taiwan)"
-				(at 21.59 -689.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SR1712F-0108-20F0A-N9-N-027"
-				(at 21.59 -789.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SR1712F-0108-20F0A-N9-N-027_1_1"
-				(rectangle
-					(start 5.08 7.62)
-					(end 20.32 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 12.7 270)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -12.7 90)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 12.7 270)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -12.7 90)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 12.7 270)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -12.7 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 12.7 270)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -12.7 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 12.7 270)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -12.7 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LED:SFH4346"
 			(pin_numbers
 				(hide yes)
@@ -1907,6 +1575,643 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SR1712F-0108-20F0A-N9-N-027_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 2.286 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SR1712F-0108-20F0A-N9-N-027"
+				(at 2.286 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Eurorack:1 Pole 8 Step Switch Alpha"
+				(at 21.59 -89.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=222"
+				(at 21.59 -189.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary Switches 1 POLE 8 POS D SHAFT"
+				(at 14.478 -25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "27.5"
+				(at 21.59 -389.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "105-SR1712F-18NS"
+				(at 21.59 -489.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027?qs=8%252Br4Hz5Xir90vqVXg0QR9g%3D%3D"
+				(at 21.59 -589.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha (Taiwan)"
+				(at 21.59 -689.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SR1712F-0108-20F0A-N9-N-027"
+				(at 21.59 -789.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SR1712F-0108-20F0A-N9-N-027_1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -11.43) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 9.144 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 9.779 -7.62)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.112) (xy 16.256 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.764 2.794)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 17.78 -14.986)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 18.542 0)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.304 -12.7)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 20.066 -2.54)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 21.082 -10.16)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 21.336 -5.08)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 21.844 -7.62)
+					(radius 0.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.606 -12.7) (xy 23.622 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.606 -14.986) (xy 18.542 -14.986)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.606 -14.986) (xy 23.622 -14.986)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -12.7) (xy 20.066 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.368 0) (xy 19.304 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.368 0) (xy 23.876 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.622 -5.08) (xy 22.098 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.622 -7.62) (xy 22.606 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.622 -10.16) (xy 21.844 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.876 2.794) (xy 17.526 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.876 -2.54) (xy 20.828 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SR1712F-0108-20F0A-N9-N-027_1_1_1"
+				(rectangle
+					(start 5.08 7.62)
+					(end 26.416 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 15.748 -2.794)
+					(mid 17.4532 -6.5514)
+					(end 16.002 -10.414)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.748 -10.16) (xy 16.256 -10.668) (xy 15.494 -10.922) (xy 15.748 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -7.62 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -10.16 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -12.7 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -15.24 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -20.32 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2535,6 +2840,12 @@
 		)
 	)
 	(junction
+		(at 143.51 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0818eb34-0b45-48f0-87eb-56ce088b4a92")
+	)
+	(junction
 		(at 156.21 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2551,12 +2862,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "110569ab-b999-4125-972d-43bbb3e5e435")
-	)
-	(junction
-		(at 180.34 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11fae2a9-9f21-44d2-97cd-b3fdef5e100b")
 	)
 	(junction
 		(at 255.27 88.9)
@@ -2833,16 +3138,12 @@
 		(uuid "111f21b5-38d6-41bd-832b-fce51c5b973d")
 	)
 	(no_connect
+		(at 148.59 151.13)
+		(uuid "1d9af7ad-012e-4557-b3ac-b4d16c9433b5")
+	)
+	(no_connect
 		(at 60.96 115.57)
 		(uuid "4605a587-fedf-4fa6-a875-4c47c37951dd")
-	)
-	(no_connect
-		(at 167.64 118.11)
-		(uuid "5c700b5e-50c0-4238-aa92-c067110c57b6")
-	)
-	(no_connect
-		(at 167.64 143.51)
-		(uuid "80106fb9-de24-4a3d-b9cc-75c3653523c0")
 	)
 	(no_connect
 		(at 60.96 162.56)
@@ -2871,6 +3172,10 @@
 	(no_connect
 		(at 60.96 69.85)
 		(uuid "eae1e8f6-8c46-4ce5-9866-f39f43eac804")
+	)
+	(no_connect
+		(at 180.34 151.13)
+		(uuid "edbdb471-9435-457c-8849-822b1be53f7a")
 	)
 	(no_connect
 		(at 60.96 185.42)
@@ -3142,15 +3447,6 @@
 		(uuid "de9e87b7-2f50-4208-bcbb-37d0fc675090")
 	)
 	(bus_entry
-		(at 229.87 140.97)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "decbdbdf-9897-4629-abff-1a3769ead9d5")
-	)
-	(bus_entry
 		(at 101.6 60.96)
 		(size 2.54 2.54)
 		(stroke
@@ -3280,16 +3576,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 133.35) (xy 153.67 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a492b36-aaae-4c59-9c07-891da3bf0640")
-	)
-	(wire
-		(pts
 			(xy 71.12 90.17) (xy 76.2 90.17)
 		)
 		(stroke
@@ -3347,16 +3633,6 @@
 			(type default)
 		)
 		(uuid "1299160c-faec-4ad6-a35f-5cf385842d1d")
-	)
-	(wire
-		(pts
-			(xy 154.94 135.89) (xy 154.94 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f95eb9-6fa8-447f-82f6-ab90b6c495b6")
 	)
 	(wire
 		(pts
@@ -3440,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 146.05) (xy 227.33 146.05)
+			(xy 180.34 146.05) (xy 227.33 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3477,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "17b6145f-df6d-4f6f-b817-d4abbe3cca13")
-	)
-	(wire
-		(pts
-			(xy 154.94 144.78) (xy 175.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d815d6b-38c6-41d9-beed-0414fa5ce1ec")
 	)
 	(wire
 		(pts
@@ -3590,6 +3856,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 143.51) (xy 229.87 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27dd886a-657a-4025-b96c-9332a71ad0e4")
+	)
+	(wire
+		(pts
 			(xy 26.67 45.72) (xy 25.4 45.72)
 		)
 		(stroke
@@ -3660,16 +3936,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 146.05) (xy 179.07 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3207b956-6051-49da-8935-e739ec3107ac")
-	)
-	(wire
-		(pts
 			(xy 83.82 158.75) (xy 83.82 182.88)
 		)
 		(stroke
@@ -3737,6 +4003,16 @@
 			(type default)
 		)
 		(uuid "3c143261-9357-4ee1-bfb3-2d8e1eb1b6b7")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 143.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c80091f-b500-4561-9993-866372cdbeab")
 	)
 	(bus
 		(pts
@@ -3870,16 +4146,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 148.59) (xy 148.59 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c687b54-b91c-482d-abe9-dd56bf5a1fda")
-	)
-	(wire
-		(pts
 			(xy 255.27 46.99) (xy 255.27 52.07)
 		)
 		(stroke
@@ -3917,6 +4183,16 @@
 			(type default)
 		)
 		(uuid "512c2195-10af-4d4a-a7a7-0718c91dfce6")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 209.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5188f525-68ca-432c-81ed-0a7eaa169a0f")
 	)
 	(wire
 		(pts
@@ -4000,33 +4276,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 138.43) (xy 227.33 138.43)
+			(xy 180.34 138.43) (xy 227.33 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e7655d3-a592-4f7d-90ec-126ce15c349b")
-	)
-	(wire
-		(pts
-			(xy 151.13 130.81) (xy 151.13 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6037c69c-bbd1-4116-9239-a01eb5a86b9e")
-	)
-	(wire
-		(pts
-			(xy 154.94 133.35) (xy 153.67 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606933bf-2094-4220-b14b-8afe6d57c2eb")
 	)
 	(bus
 		(pts
@@ -4047,16 +4303,6 @@
 			(type default)
 		)
 		(uuid "646fe534-62ad-4033-a53b-87a0197c3d74")
-	)
-	(wire
-		(pts
-			(xy 151.13 147.32) (xy 177.8 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c25558-66d5-4915-9131-17fa16993460")
 	)
 	(wire
 		(pts
@@ -4150,6 +4396,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 113.03) (xy 143.51 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c89f6b9-26f0-4d47-97cb-c776f187bc81")
+	)
+	(wire
+		(pts
 			(xy 255.27 83.82) (xy 255.27 88.9)
 		)
 		(stroke
@@ -4157,16 +4413,6 @@
 			(type default)
 		)
 		(uuid "6cae149f-c006-41d8-82fa-619b011640e5")
-	)
-	(wire
-		(pts
-			(xy 180.34 113.03) (xy 209.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724ed5cc-793a-4ff7-9e81-478fc000d8dc")
 	)
 	(wire
 		(pts
@@ -4230,16 +4476,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 143.51) (xy 177.8 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780692ba-a1bb-41d4-92d4-c6801bbe1724")
-	)
-	(wire
-		(pts
 			(xy 232.41 52.07) (xy 240.03 52.07)
 		)
 		(stroke
@@ -4257,16 +4493,6 @@
 			(type default)
 		)
 		(uuid "7aaa2d08-93f4-4649-98f6-9ff858618e51")
-	)
-	(wire
-		(pts
-			(xy 154.94 125.73) (xy 148.59 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dacf7d1-adfe-4323-820f-4b1e365c9bfd")
 	)
 	(wire
 		(pts
@@ -4438,26 +4664,6 @@
 		)
 		(uuid "8f1336a4-f204-4232-8116-d5b244c8eab5")
 	)
-	(wire
-		(pts
-			(xy 179.07 148.59) (xy 148.59 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f44cc47-1c08-4042-bec5-008611057d8d")
-	)
-	(wire
-		(pts
-			(xy 153.67 146.05) (xy 176.53 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a6b2f4-52de-456a-b493-638daa9527b3")
-	)
 	(bus
 		(pts
 			(xy 93.98 99.06) (xy 93.98 120.65)
@@ -4510,26 +4716,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 143.51) (xy 227.33 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951c097d-c8b9-46b0-9eac-2da872e21868")
-	)
-	(wire
-		(pts
-			(xy 148.59 128.27) (xy 154.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971fa7f3-e29b-4019-bc0e-2fa898397d1a")
-	)
-	(wire
-		(pts
 			(xy 104.14 63.5) (xy 123.19 63.5)
 		)
 		(stroke
@@ -4547,6 +4733,16 @@
 			(type default)
 		)
 		(uuid "9a89943c-8f36-492d-8e32-021f8bb8cb8f")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 148.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af2fc9a-bc25-465d-b4ce-37742d2fc75f")
 	)
 	(wire
 		(pts
@@ -4830,16 +5026,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 125.73) (xy 148.59 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa64c40-bf8a-46e3-816f-97a58415f690")
-	)
-	(wire
-		(pts
 			(xy 267.97 83.82) (xy 267.97 95.25)
 		)
 		(stroke
@@ -4868,16 +5054,6 @@
 		)
 		(uuid "bbdcdbbd-aa3e-45e6-9a4f-15acefa8a39b")
 	)
-	(bus
-		(pts
-			(xy 229.87 138.43) (xy 229.87 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf507354-9ae5-4d6a-86eb-a282f6ccfd51")
-	)
 	(wire
 		(pts
 			(xy 19.05 160.02) (xy 19.05 182.88)
@@ -4897,16 +5073,6 @@
 			(type default)
 		)
 		(uuid "c071bddf-604d-48e9-9027-d5b6283691d3")
-	)
-	(wire
-		(pts
-			(xy 148.59 113.03) (xy 180.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c11e5c11-44ce-48d9-a349-75a1cc3b4a9e")
 	)
 	(wire
 		(pts
@@ -4960,16 +5126,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 130.81) (xy 151.13 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c709e8c9-5981-4d8e-afdd-b7de97a657ed")
-	)
-	(wire
-		(pts
 			(xy 255.27 76.2) (xy 255.27 83.82)
 		)
 		(stroke
@@ -4980,7 +5136,7 @@
 	)
 	(bus
 		(pts
-			(xy 229.87 140.97) (xy 229.87 143.51)
+			(xy 229.87 138.43) (xy 229.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5260,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 140.97) (xy 227.33 140.97)
+			(xy 180.34 140.97) (xy 227.33 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5330,16 +5486,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 138.43) (xy 175.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b30d7b-331f-47f9-a315-d834a316ae76")
-	)
-	(wire
-		(pts
 			(xy 19.05 21.59) (xy 19.05 24.13)
 		)
 		(stroke
@@ -5347,16 +5493,6 @@
 			(type default)
 		)
 		(uuid "f0dc8a0e-92ba-4a6d-b0f0-9fc46ba0dec7")
-	)
-	(wire
-		(pts
-			(xy 176.53 140.97) (xy 176.53 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6357dc2-f3e1-4fa8-b736-573b747ffc7c")
 	)
 	(wire
 		(pts
@@ -5380,6 +5516,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 142.24) (xy 148.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7100e9-f0a3-4dfd-a755-a39165fb9748")
+	)
+	(wire
+		(pts
 			(xy 267.97 71.12) (xy 267.97 83.82)
 		)
 		(stroke
@@ -5387,16 +5533,6 @@
 			(type default)
 		)
 		(uuid "fb5b6708-251f-4a7a-825e-156535982634")
-	)
-	(wire
-		(pts
-			(xy 180.34 113.03) (xy 180.34 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fddc4923-806b-43cd-8894-5353b860d0f1")
 	)
 	(wire
 		(pts
@@ -13219,158 +13355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:SR1712F-0108-20F0A-N9-N-027")
-		(at 167.64 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "946748f8-5343-48b3-9df2-b627f8cadccb")
-		(property "Reference" "S2"
-			(at 160.782 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SR1712F-0108-20F0A-N9-N-027"
-			(at 169.7833 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Eurorack:1 Pole 8 Step Switch Alpha"
-			(at 257.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=222"
-			(at 357.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary Switches 1 POLE 8 POS D SHAFT"
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27.5"
-			(at 557.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "105-SR1712F-18NS"
-			(at 657.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027?qs=8%252Br4Hz5Xir90vqVXg0QR9g%3D%3D"
-			(at 757.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha (Taiwan)"
-			(at 857.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SR1712F-0108-20F0A-N9-N-027"
-			(at 957.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "f46e5b14-5bdf-445a-9963-cabf17db5438")
-		)
-		(pin "6"
-			(uuid "2a9dfd7b-0ccb-48c5-8691-85072e95b1b2")
-		)
-		(pin "5"
-			(uuid "96ff7af3-aa02-4efe-b875-66ddac84bde3")
-		)
-		(pin "4"
-			(uuid "48beff4d-e264-4a74-86f1-989d001ebd7e")
-		)
-		(pin "MH1"
-			(uuid "94ff12bb-152f-4975-8239-936d86759b2e")
-		)
-		(pin "3"
-			(uuid "d9b2f7f8-4c1c-4feb-80bc-c2e9b5c4aa44")
-		)
-		(pin "7"
-			(uuid "fe381581-0709-44c3-8330-3fd5a3fa8dda")
-		)
-		(pin "8"
-			(uuid "23d1a208-cba1-492d-b683-9fa9ed02ea6a")
-		)
-		(pin "10"
-			(uuid "fc3c3280-3c98-4dff-89f3-1d007562f1cb")
-		)
-		(pin "1"
-			(uuid "a459c1aa-7dee-449f-b2e9-f554429f070e")
-		)
-		(pin "9"
-			(uuid "9ff95203-801c-4403-9d6d-292d0cbfcf94")
-		)
-		(pin "2"
-			(uuid "eaddd03a-b605-418f-ad1e-cfef1b018c97")
-		)
-		(instances
-			(project ""
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 264.16 71.12 180)
 		(unit 1)
@@ -14848,6 +14832,158 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SR1712F-0108-20F0A-N9-N-027_1")
+		(lib_id "Eurorack:SR1712F-0108-20F0A-N9-N-027")
+		(at 148.59 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9726b20-8236-4218-af47-00d0d7620cf1")
+		(property "Reference" "S1"
+			(at 164.4015 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SR1712F-0108-20F0A-N9-N-027"
+			(at 164.4015 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Eurorack:1 Pole 8 Step Switch Alpha"
+			(at 170.18 220.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=222"
+			(at 170.18 320.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Switches 1 POLE 8 POS D SHAFT"
+			(at 163.068 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "27.5"
+			(at 170.18 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "105-SR1712F-18NS"
+			(at 170.18 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027?qs=8%252Br4Hz5Xir90vqVXg0QR9g%3D%3D"
+			(at 170.18 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha (Taiwan)"
+			(at 170.18 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR1712F-0108-20F0A-N9-N-027"
+			(at 170.18 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "041411c3-9f92-42c3-b7d2-27233dd88cff")
+		)
+		(pin "4"
+			(uuid "e23d6bbe-c23e-4bff-b52e-6cb5cd76a62f")
+		)
+		(pin "8"
+			(uuid "3cc0eb92-4aa7-496b-8d52-a8bd889c07e9")
+		)
+		(pin "2"
+			(uuid "0808f1cf-4c48-400b-ae3d-2d60aab57408")
+		)
+		(pin "10"
+			(uuid "b889b929-7606-428a-922f-7679f0e3b223")
+		)
+		(pin "MH2"
+			(uuid "b430c98e-e79b-440e-9460-84af54e59592")
+		)
+		(pin "6"
+			(uuid "0bf49f45-4ea3-407e-9fd9-870d51c698d8")
+		)
+		(pin "5"
+			(uuid "61f76177-60cb-4aba-bbb3-77dec1c2f093")
+		)
+		(pin "1"
+			(uuid "52602ca1-b936-4e08-9a20-ce78eb6874b9")
+		)
+		(pin "3"
+			(uuid "ce52a3a1-a3fd-4cf2-b36a-a2a3cbe0d36d")
+		)
+		(pin "7"
+			(uuid "c23d17da-1623-4842-b17d-b16478702931")
+		)
+		(pin "MH1"
+			(uuid "180a405b-cc81-4251-8343-d568072fdee4")
+		)
+		(instances
+			(project ""
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "S1")
 					(unit 1)
 				)
 			)
