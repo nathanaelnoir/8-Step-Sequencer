@@ -7,7 +7,7 @@
 	(title_block
 		(title "8 Step Sequencer")
 		(date "2026-03-13")
-		(rev "v0.0")
+		(rev "v1.0")
 		(company "Dirty Dream - Nathanael Noir")
 	)
 	(lib_symbols
@@ -2058,6 +2058,16 @@
 		)
 		(uuid "441acf85-3219-43fa-a78a-33dd6fee5654")
 	)
+	(text "RV1 and RV2 \nare \nTrimmer Potentiometer"
+		(exclude_from_sim no)
+		(at 248.666 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f72b1ec-0774-4931-834e-dafdc3776f03")
+	)
 	(text "TEST POINTS GND\n"
 		(exclude_from_sim no)
 		(at 139.7 160.782 0)
@@ -2151,10 +2161,10 @@
 		(uuid "730fe5a8-ab41-43a1-b10c-8242e6a07821")
 	)
 	(junction
-		(at 67.31 130.81)
+		(at 74.93 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86a32ee4-041c-4058-8fa4-679b07a2813f")
+		(uuid "741f860c-9fa3-45e2-a7cc-123acb360259")
 	)
 	(junction
 		(at 218.44 73.66)
@@ -2758,6 +2768,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 130.81) (xy 116.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72979300-1ee5-4b7a-9b98-bdc11b92506e")
+	)
+	(wire
+		(pts
 			(xy 229.87 144.78) (xy 229.87 146.05)
 		)
 		(stroke
@@ -3178,16 +3198,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 130.81) (xy 67.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e578dae0-9000-4f11-bab5-5069337986e4")
-	)
-	(wire
-		(pts
 			(xy 259.08 33.02) (xy 259.08 38.1)
 		)
 		(stroke
@@ -3218,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 130.81) (xy 67.31 130.81)
+			(xy 62.23 130.81) (xy 74.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3797,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 130.81 0)
+		(at 74.93 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3795,7 +3805,7 @@
 		(dnp no)
 		(uuid "1fe5ecb3-15d7-4eca-971a-ca3c12ff7ed0")
 		(property "Reference" "TP3"
-			(at 65.532 121.412 0)
+			(at 73.152 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3814,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 66.548 124.4601 0)
+			(at 74.168 124.4601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3823,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 72.39 130.81 0)
+			(at 80.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 130.81 0)
+			(at 80.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3841,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3850,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3859,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3868,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3877,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3886,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3895,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3904,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3913,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3922,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3931,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +3940,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3949,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 67.31 130.81 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

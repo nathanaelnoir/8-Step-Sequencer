@@ -7,7 +7,7 @@
 	(title_block
 		(title "8 Step Sequencer")
 		(date "2026-03-13")
-		(rev "v0.0")
+		(rev "v1.0")
 		(company "Dirty Dream - Nathanael Noir")
 	)
 	(lib_symbols
@@ -1313,7 +1313,7 @@
 	)
 	(rectangle
 		(start 20.32 20.32)
-		(end 121.92 88.9)
+		(end 146.685 101.6)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1333,6 +1333,16 @@
 			)
 		)
 		(uuid "84cca28d-6e8b-4232-a312-022261463eac")
+	)
+	(text "Use a 1 µF C0G/NP0 if available (rare/large);\notherwise use a smaller C0G (100-470 nF) and scale the timing resistors accordingly.\n"
+		(exclude_from_sim no)
+		(at 81.026 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b86b2a56-d3a8-4a38-983e-d235445acc7d")
 	)
 	(junction
 		(at 76.2 45.72)
@@ -2985,7 +2995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Eurorack:Kemet Film Cap"
 			(at 48.26 44.7548 0)
 			(effects
 				(font
@@ -2994,7 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/ProductDetail/KEMET/R82DC4100AA60J?qs=Jv4FAWB%252B0HYVXjrTybqNAQ%3D%3D"
 			(at 44.45 45.72 0)
 			(effects
 				(font
