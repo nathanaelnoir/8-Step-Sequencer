@@ -2402,6 +2402,26 @@
 		)
 		(uuid "fdbfb68d-6204-40e6-9e8b-9ffde8259594")
 	)
+	(label "+12V"
+		(at 58.42 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c4c4457-0626-4991-97a1-e8af37aa0fb8")
+	)
+	(label "-12V"
+		(at 59.69 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7febd6a9-e8c1-4717-a7f9-0177695d25a6")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 147.32 49.53 0)
