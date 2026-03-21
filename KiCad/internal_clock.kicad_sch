@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "8 Step Sequencer")
-		(date "2026-03-13")
+		(date "2026-03-21")
 		(rev "v1.0")
 		(company "Dirty Dream - Nathanael Noir")
 	)
@@ -2455,7 +2455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:RD901F"
+		(property "Footprint" "Eurorack:RD901F_1"
 			(at 68.58 45.72 0)
 			(effects
 				(font
