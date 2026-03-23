@@ -52,20 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|115075520|126720120|34f9d22c-9c59-4daf-8696-89a6f040bb99|6269a18a-9ab6-41d5-94ed-ee5fa3e035d1",
-          ""
-        ],
-        [
-          "courtyards_overlap|128065520|126720120|31e408ac-806a-4247-a3b7-4ec6488d89b4|6269a18a-9ab6-41d5-94ed-ee5fa3e035d1",
-          ""
-        ],
-        [
-          "courtyards_overlap|188998720|126720120|4d1a188a-2ee9-4e40-a151-014bb619f7dc|ae5c82d9-30e8-4b9f-bf05-ca82119bb197",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -496,7 +483,7 @@
         "microvia_diameter": 0.4,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(221, 133, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
@@ -507,7 +494,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(0, 194, 194)",
+      "-12V": "rgb(0, 194, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
