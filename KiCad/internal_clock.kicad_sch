@@ -820,7 +820,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Eurorack:RD901F"
+		(symbol "Eurorack:Potentiometer_Alpha_RD901F_Vertical"
 			(pin_names
 				(offset 1.016)
 			)
@@ -836,7 +836,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RD901F"
+			(property "Value" "Potentiometer_Alpha_RD901F_Vertical"
 				(at -5.08 2.54 0)
 				(effects
 					(font
@@ -845,7 +845,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Eurorack:RD901F"
+			(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -993,7 +993,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RD901F_0_0"
+			(symbol "Potentiometer_Alpha_RD901F_Vertical_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.572 0)
@@ -1187,7 +1187,7 @@
 					)
 				)
 			)
-			(symbol "RD901F_1_0"
+			(symbol "Potentiometer_Alpha_RD901F_Vertical_1_0"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1348,7 +1348,7 @@
 		(at 76.2 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e7bb391-b056-4771-b970-5503df3dcc8b")
+		(uuid "03a5e6c5-4075-4882-b334-33606837c7c2")
 	)
 	(junction
 		(at 83.82 55.88)
@@ -2431,197 +2431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 68.58 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab6b4007-fdff-43b1-8dac-ec942856cfcf")
-		(property "Reference" "RV3"
-			(at 67.056 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "250k"
-			(at 67.564 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22f67350-6377-4aac-b493-573af36a3c0e")
-		)
-		(pin "2"
-			(uuid "c436e17c-28cd-4cdc-b073-656934d07a0c")
-		)
-		(pin "3"
-			(uuid "99d9407d-8a33-467e-b89b-593fd10b912f")
-		)
-		(instances
-			(project ""
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/b964167f-08d9-430a-9aa0-9a2613885304"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 48.26 45.72 0)
 		(unit 1)
@@ -2995,7 +2804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:Kemet Film Cap"
+		(property "Footprint" "Eurorack:Capacitor_Film_KEMET_R82DC4100AA60J_THT"
 			(at 48.26 44.7548 0)
 			(effects
 				(font
@@ -3140,6 +2949,197 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/b964167f-08d9-430a-9aa0-9a2613885304"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 68.58 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6a219c5-6646-4ed9-a537-759fa6f1d682")
+		(property "Reference" "R45"
+			(at 68.072 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "250k"
+			(at 68.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6f77e8-074a-43d1-a149-27118650d59b")
+		)
+		(pin "3"
+			(uuid "968e6429-0f42-44d9-8c15-2dd71f8dea67")
+		)
+		(pin "2"
+			(uuid "4b84e9ae-fa85-4f81-86ae-61a41ba9d0ff")
+		)
+		(instances
+			(project ""
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/b964167f-08d9-430a-9aa0-9a2613885304"
+					(reference "R45")
 					(unit 1)
 				)
 			)

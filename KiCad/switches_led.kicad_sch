@@ -597,7 +597,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Eurorack:CD4017BE"
+		(symbol "Eurorack:IC_DIP-16_CD4017BE_THT"
 			(pin_names
 				(offset 0.254)
 			)
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Eurorack:CD4017BE THT"
+			(property "Footprint" "Eurorack:IC_DIP-16_CD4017BE_THT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -667,7 +667,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CD4017BE_0_1"
+			(symbol "IC_DIP-16_CD4017BE_THT_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -22.86)
@@ -855,7 +855,7 @@
 					)
 				)
 			)
-			(symbol "CD4017BE_1_1"
+			(symbol "IC_DIP-16_CD4017BE_THT_1_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 25.4 5.08)
@@ -1009,7 +1009,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Eurorack:RD901F"
+		(symbol "Eurorack:Potentiometer_Alpha_RD901F_Vertical"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1025,7 +1025,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RD901F"
+			(property "Value" "Potentiometer_Alpha_RD901F_Vertical"
 				(at -5.08 2.54 0)
 				(effects
 					(font
@@ -1034,7 +1034,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Eurorack:RD901F"
+			(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1182,7 +1182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RD901F_0_0"
+			(symbol "Potentiometer_Alpha_RD901F_Vertical_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.572 0)
@@ -1376,7 +1376,7 @@
 					)
 				)
 			)
-			(symbol "RD901F_1_0"
+			(symbol "Potentiometer_Alpha_RD901F_Vertical_1_0"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1398,194 +1398,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SFH4346"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.508 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SFH4346"
-				(at -1.016 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Infrared LED , 3mm LED package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "opto IR LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*3.0mm*IRBlack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SFH4346_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 3.175) (xy -0.127 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SFH4346_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SR1712F-0108-20F0A-N9-N-027_1"
+		(symbol "Eurorack:Switch_Rotary_Alpha_SR1712F_1P8T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1598,16 +1411,17 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SR1712F-0108-20F0A-N9-N-027"
+			(property "Value" "Switch_Rotary_Alpha_SR1712F_1P8T"
 				(at 2.286 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "Eurorack:1 Pole 8 Step Switch Alpha"
+			(property "Footprint" "Eurorack:Switch_Rotary_Alpha_SR1712F_1P8T"
 				(at 21.59 -89.84 0)
 				(effects
 					(font
@@ -1686,7 +1500,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SR1712F-0108-20F0A-N9-N-027_1_0_1"
+			(symbol "Switch_Rotary_Alpha_SR1712F_1P8T_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -3.81) (xy 7.62 -7.62)
@@ -1967,7 +1781,7 @@
 					)
 				)
 			)
-			(symbol "SR1712F-0108-20F0A-N9-N-027_1_1_1"
+			(symbol "Switch_Rotary_Alpha_SR1712F_1P8T_1_1"
 				(rectangle
 					(start 5.08 7.62)
 					(end 26.416 -21.59)
@@ -2212,6 +2026,193 @@
 						)
 					)
 					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:SFH4346"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SFH4346"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Infrared LED , 3mm LED package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "opto IR LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*3.0mm*IRBlack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SFH4346_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SFH4346_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2840,6 +2841,12 @@
 		)
 	)
 	(junction
+		(at 255.27 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05f48d61-3a36-437f-8d95-eda03f7d6536")
+	)
+	(junction
 		(at 143.51 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2864,10 +2871,10 @@
 		(uuid "110569ab-b999-4125-972d-43bbb3e5e435")
 	)
 	(junction
-		(at 255.27 88.9)
+		(at 255.27 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a3b2f85-89a5-4bbc-9a74-0b7bd8ba931b")
+		(uuid "2012845c-106f-470a-a07e-779d63c113dc")
 	)
 	(junction
 		(at 83.82 24.13)
@@ -2900,10 +2907,10 @@
 		(uuid "3424ef8e-34fa-4de6-9835-51071ef539a1")
 	)
 	(junction
-		(at 255.27 123.19)
+		(at 255.27 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f32edca-eda0-41e7-847a-bd2cb105804f")
+		(uuid "5188ace0-d905-4eea-8ebc-067bf2153bb8")
 	)
 	(junction
 		(at 59.69 118.11)
@@ -2936,6 +2943,12 @@
 		(uuid "62dfd63b-f31d-4294-a87b-ecc48d901f52")
 	)
 	(junction
+		(at 255.27 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639e6863-8141-494b-9a02-9a90ba5eb248")
+	)
+	(junction
 		(at 59.69 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2960,16 +2973,16 @@
 		(uuid "75ca9165-9316-447e-b976-057554110244")
 	)
 	(junction
+		(at 255.27 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87b8fc71-1c4d-46dd-87b3-357b27aacc24")
+	)
+	(junction
 		(at 267.97 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ca9138-3b80-4a2e-abf5-35155804c277")
-	)
-	(junction
-		(at 255.27 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bf6159d-729c-4817-9cb6-e101d613d5ad")
 	)
 	(junction
 		(at 59.69 140.97)
@@ -2990,10 +3003,16 @@
 		(uuid "a2655966-1c54-48bc-be23-8d8207b6c100")
 	)
 	(junction
-		(at 255.27 52.07)
+		(at 255.27 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a54035f8-db28-4ba5-91f0-492ecbb2e86c")
+		(uuid "a6bf1c0f-5a5e-4e17-9c32-c99aed9aa495")
+	)
+	(junction
+		(at 255.27 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab78da6e-a7ff-46f7-ac89-d33837e50ba5")
 	)
 	(junction
 		(at 168.91 74.93)
@@ -3050,12 +3069,6 @@
 		(uuid "cc60fd89-950c-44d9-9d1d-9cbbade4311d")
 	)
 	(junction
-		(at 255.27 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbd5ef8b-bae4-4391-acf5-cc3e5abeb753")
-	)
-	(junction
 		(at 267.97 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3066,18 +3079,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb4563be-a6a2-4730-bc76-a92ed5e7148e")
-	)
-	(junction
-		(at 255.27 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f09749d5-44b3-44b0-8f63-c8da19a889ef")
-	)
-	(junction
-		(at 255.27 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f72c20ee-0257-40aa-9d18-dd3d719e1eed")
 	)
 	(no_connect
 		(at 156.21 68.58)
@@ -3552,16 +3553,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 255.27 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148a2e71-9877-46f0-8789-bd7cf5cff212")
-	)
-	(wire
-		(pts
 			(xy 83.82 113.03) (xy 83.82 134.62)
 		)
 		(stroke
@@ -3652,16 +3643,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 88.9) (xy 255.27 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b6145f-df6d-4f6f-b817-d4abbe3cca13")
-	)
-	(wire
-		(pts
 			(xy 232.41 111.76) (xy 240.03 111.76)
 		)
 		(stroke
@@ -3719,16 +3700,6 @@
 			(type default)
 		)
 		(uuid "213b3fd3-041a-4c2b-8f56-b492b292222a")
-	)
-	(wire
-		(pts
-			(xy 255.27 111.76) (xy 255.27 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2216b572-9673-4487-ae1e-bc307670992d")
 	)
 	(wire
 		(pts
@@ -4012,23 +3983,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 123.19) (xy 255.27 129.54)
+			(xy 255.27 100.33) (xy 255.27 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b4e2ec0-cd2f-463b-92be-e227dbb46580")
-	)
-	(wire
-		(pts
-			(xy 255.27 39.37) (xy 255.27 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc26ef5-1e09-44e4-9156-86572e650f9a")
+		(uuid "4a9d2d37-c9ee-4593-9429-1461ea122d5b")
 	)
 	(wire
 		(pts
@@ -4069,6 +4030,16 @@
 			(type default)
 		)
 		(uuid "5188f525-68ca-432c-81ed-0a7eaa169a0f")
+	)
+	(wire
+		(pts
+			(xy 255.27 64.77) (xy 255.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53af8eb3-4eee-47d8-9def-fafa54d2de13")
 	)
 	(wire
 		(pts
@@ -4252,16 +4223,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 100.33) (xy 255.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc7e586-4eaf-4a41-b839-b5862d89674b")
-	)
-	(wire
-		(pts
 			(xy 143.51 113.03) (xy 143.51 134.62)
 		)
 		(stroke
@@ -4339,6 +4300,16 @@
 			(type default)
 		)
 		(uuid "791b412b-05c4-4e92-9aef-2d7f4fc75678")
+	)
+	(wire
+		(pts
+			(xy 255.27 111.76) (xy 255.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b5c67e-bb3a-498d-b317-29b20c4a243f")
 	)
 	(wire
 		(pts
@@ -4492,6 +4463,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 76.2) (xy 255.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4c6f9c-de3d-42d5-9466-1b88fae047c3")
+	)
+	(wire
+		(pts
 			(xy 60.96 41.91) (xy 59.69 41.91)
 		)
 		(stroke
@@ -4529,6 +4510,16 @@
 			(type default)
 		)
 		(uuid "9264a81f-104f-48d2-9633-fbd8422f6699")
+	)
+	(wire
+		(pts
+			(xy 255.27 88.9) (xy 255.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936386b0-423d-40ba-ba73-e71eb2ad52a2")
 	)
 	(wire
 		(pts
@@ -4922,17 +4913,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 64.77) (xy 255.27 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68d3e47-9380-4140-b9d3-481d19b030e8")
-	)
-	(wire
-		(pts
-			(xy 255.27 76.2) (xy 255.27 88.9)
+			(xy 255.27 39.37) (xy 255.27 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5152,6 +5133,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 52.07) (xy 255.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e061649b-6c57-4c31-80a6-21629d70980d")
+	)
+	(wire
+		(pts
 			(xy 59.69 21.59) (xy 59.69 29.21)
 		)
 		(stroke
@@ -5289,6 +5280,16 @@
 			(type default)
 		)
 		(uuid "f0dc8a0e-92ba-4a6d-b0f0-9fc46ba0dec7")
+	)
+	(wire
+		(pts
+			(xy 255.27 123.19) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47f1ce2-fd3a-45d7-85dd-8f301a64d9bc")
 	)
 	(wire
 		(pts
@@ -6084,6 +6085,310 @@
 		)
 	)
 	(symbol
+		(lib_id "Eurorack:IC_DIP-16_CD4017BE_THT")
+		(at 123.19 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c8e2110-ddf8-456f-a18c-6a40a621919b")
+		(property "Reference" "U3"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CD4017BE"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:IC_DIP-16_CD4017BE_THT"
+			(at 123.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/cd4017b"
+			(at 123.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e2ecf78b-fdb4-402b-a71b-d380f12f10ef")
+		)
+		(pin "15"
+			(uuid "d9325403-8b8a-4da0-8401-669b72dfb3ee")
+		)
+		(pin "14"
+			(uuid "fb8e2161-67d8-4e99-b050-647ebd9ce89c")
+		)
+		(pin "3"
+			(uuid "6b45599a-d1fe-4c3a-8d6d-5089bd7faaf0")
+		)
+		(pin "4"
+			(uuid "24d44890-8888-4dbd-b17e-c8161f97a955")
+		)
+		(pin "2"
+			(uuid "1f4a793a-2388-4977-8241-7aa2cec5a67c")
+		)
+		(pin "1"
+			(uuid "59772779-7669-4aae-8a9f-47b978685ba6")
+		)
+		(pin "11"
+			(uuid "32d1f72b-b784-48c7-9565-f6792c7f4ef6")
+		)
+		(pin "10"
+			(uuid "1dede8c3-ef26-45ed-a462-96d25ef80236")
+		)
+		(pin "9"
+			(uuid "df1f1625-fccb-4a42-b93b-9a10105ac11a")
+		)
+		(pin "16"
+			(uuid "c66c5585-0bb3-4677-a806-9527561fb4a2")
+		)
+		(pin "13"
+			(uuid "178ea886-df8d-4d7c-80f7-2e2b7e9b1c11")
+		)
+		(pin "12"
+			(uuid "3ed70dfd-112f-4327-bf06-f764c8223726")
+		)
+		(pin "7"
+			(uuid "4a4da914-0b30-4989-9af0-20f2966d78a8")
+		)
+		(pin "8"
+			(uuid "a2885ddd-a71d-4ed6-831f-bdd7b8fa0876")
+		)
+		(pin "6"
+			(uuid "d72b3062-38e2-48ad-a748-91295ab34a23")
+		)
+		(instances
+			(project ""
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133c5655-2467-437f-92b2-d9010e9032fa")
+		(property "Reference" "R37"
+			(at 247.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bfa8a3a-9747-4568-a513-d95be64bd9bc")
+		)
+		(pin "3"
+			(uuid "c6fbf1e5-4de9-45b9-871a-2369ca69186c")
+		)
+		(pin "1"
+			(uuid "0db1c6b6-be51-48a6-915f-5fbb641bc2fb")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 182.88 67.31 180)
 		(unit 1)
@@ -6449,197 +6754,6 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f072529-fe65-4d6d-b490-3d5f99ac2acd")
-		(property "Reference" "RV5"
-			(at 246.126 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "902354a2-723b-4fc3-afdd-8e80f0db943f")
-		)
-		(pin "2"
-			(uuid "3945bb43-5cc2-4721-bef7-04eb8a780c97")
-		)
-		(pin "3"
-			(uuid "67eed28f-0ac3-42e3-b167-e22ba4a066fe")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -7411,6 +7525,158 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack:Switch_Rotary_Alpha_SR1712F_1P8T")
+		(at 148.59 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317ae7e4-3135-4153-8cdf-cbff0c0020dc")
+		(property "Reference" "S1"
+			(at 164.4015 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_Rotary_Alpha_SR1712F_1P8T"
+			(at 150.876 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Eurorack:Switch_Rotary_Alpha_SR1712F_1P8T"
+			(at 170.18 220.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=222"
+			(at 170.18 320.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Switches 1 POLE 8 POS D SHAFT"
+			(at 163.068 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "27.5"
+			(at 170.18 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "105-SR1712F-18NS"
+			(at 170.18 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027?qs=8%252Br4Hz5Xir90vqVXg0QR9g%3D%3D"
+			(at 170.18 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha (Taiwan)"
+			(at 170.18 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR1712F-0108-20F0A-N9-N-027"
+			(at 170.18 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18e20e8c-7884-4237-a997-bf0cd54a968a")
+		)
+		(pin "4"
+			(uuid "e54f6f60-dac2-403d-b670-e0d29a974614")
+		)
+		(pin "6"
+			(uuid "162736b6-7bf5-447d-a501-0c019ba00d68")
+		)
+		(pin "7"
+			(uuid "9052fb55-f7b8-4bcb-9299-c88d53ad5bba")
+		)
+		(pin "1"
+			(uuid "ebe10672-2791-4c23-9bd6-d42311e751df")
+		)
+		(pin "3"
+			(uuid "aa933992-8307-4d07-ae27-ac1b31f3f4fb")
+		)
+		(pin "9"
+			(uuid "3db37a78-b979-46ed-ba95-08f2f37a70f3")
+		)
+		(pin "10"
+			(uuid "ce6e556d-1a4b-4ec4-9657-32beded76d60")
+		)
+		(pin "MH1"
+			(uuid "5a2a0e3e-faf9-46f9-bed1-27c2ac08adde")
+		)
+		(pin "5"
+			(uuid "d1f51354-65cf-4455-9ab3-eb6528ad0933")
+		)
+		(pin "MH2"
+			(uuid "3a6a7d90-aac7-4ba6-9372-9569d5140485")
+		)
+		(pin "8"
+			(uuid "574ce3eb-0f11-4cdd-87a9-bbcf86037399")
+		)
+		(instances
+			(project ""
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 170.18 0)
 			(effects
 				(font
@@ -9152,118 +9418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:CD4017BE")
-		(at 123.19 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4be0ad2d-5978-492f-9f76-e36a73aa0d30")
-		(property "Reference" "U2"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "CD4017BE"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:CD4017BE THT"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/cd4017b"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "58647a36-2d3d-48e0-9dd4-77fb3ffa63e1")
-		)
-		(pin "2"
-			(uuid "215cc350-2a98-4155-86b0-c326f826c99a")
-		)
-		(pin "4"
-			(uuid "c0e4bea1-2e27-4d20-a7c5-a041191ff2d5")
-		)
-		(pin "5"
-			(uuid "efc1818f-a358-4895-bf1f-06c481a97502")
-		)
-		(pin "15"
-			(uuid "3c918de1-81f4-41cf-aff7-db16fdab79b9")
-		)
-		(pin "14"
-			(uuid "95b1e316-47f7-46b3-a3ec-8bcc94908c95")
-		)
-		(pin "9"
-			(uuid "207bdb90-037f-41ed-8e3c-847f5a120252")
-		)
-		(pin "1"
-			(uuid "2b35866d-0d86-45ef-9a25-40b65ff37c04")
-		)
-		(pin "12"
-			(uuid "75c248d9-14ae-42d1-9ce7-910ca43ff509")
-		)
-		(pin "13"
-			(uuid "ffa2bf31-9bad-4752-b849-b1dda4b5832f")
-		)
-		(pin "6"
-			(uuid "981c3daf-da67-495d-81fd-0acda2aea49e")
-		)
-		(pin "7"
-			(uuid "f6be7097-8b99-4e9c-88b1-f43bac220238")
-		)
-		(pin "8"
-			(uuid "1cc1746d-703a-4bf0-af66-0fa1d7c21469")
-		)
-		(pin "16"
-			(uuid "2d2a87a8-ce24-48b8-b586-4bf478949f9a")
-		)
-		(pin "10"
-			(uuid "4ee1de42-2fd8-48b7-966e-3039b72df229")
-		)
-		(pin "11"
-			(uuid "83eda49e-839f-400e-8fbd-90ebee196837")
-		)
-		(instances
-			(project ""
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SFH4346")
 		(at 29.21 24.13 0)
 		(mirror y)
@@ -9434,6 +9588,198 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "557b42d2-7caa-4d12-824c-73298fcf70bc")
+		(property "Reference" "R43"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e410fdc-ea7b-4ecc-ad9b-547ad3eb987b")
+		)
+		(pin "3"
+			(uuid "7e6fa1d6-d971-4b58-b573-e2e1d7cf816c")
+		)
+		(pin "1"
+			(uuid "4b4c267a-4760-47ed-827d-f644cde531f4")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9977,197 +10323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f2d5455-c082-4aa3-bb6b-bb1e2995dc0e")
-		(property "Reference" "RV6"
-			(at 246.126 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c88dba23-8512-4661-a7a0-4444589dc48a")
-		)
-		(pin "2"
-			(uuid "87eca914-9170-4bfe-9d3e-aa876acfb33c")
-		)
-		(pin "3"
-			(uuid "738d2f39-6045-469b-92bb-50c8bafc43a7")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 80.01 182.88 0)
 		(mirror y)
@@ -10389,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -10731,6 +10886,198 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7af56f09-744d-480d-9a13-f8fc14b1c550")
+		(property "Reference" "R39"
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdbc9fe4-58a6-4102-82b0-beffaa85bc4f")
+		)
+		(pin "3"
+			(uuid "f9649796-33eb-460e-851d-837aaf131558")
+		)
+		(pin "1"
+			(uuid "a32c8a66-efe9-405f-9f91-7d3ba27fef6d")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11601,197 +11948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e2f503b-4ba2-4641-a368-016e9a1844db")
-		(property "Reference" "RV10"
-			(at 246.126 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0737a830-91bf-4ecf-9934-4bf180e5eb2f")
-		)
-		(pin "2"
-			(uuid "788b3207-a3cc-40fe-9ca9-1dd2e2d0f9af")
-		)
-		(pin "3"
-			(uuid "8740d807-2b3d-43f5-b34c-a6fbc89a247a")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 168.91 77.47 0)
 		(mirror y)
@@ -12453,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 193.04 0)
 			(effects
 				(font
@@ -12778,197 +12934,6 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a2c3039-8ef6-4d8f-8b89-19fcab3fc30b")
-		(property "Reference" "RV7"
-			(at 246.126 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48a71a37-bbe5-46d6-bdaa-e212af891069")
-		)
-		(pin "2"
-			(uuid "dd776d1c-83a1-4e00-8ea3-f07c8fecda14")
-		)
-		(pin "3"
-			(uuid "8998566b-67e1-4356-8763-381404ae85ce")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -13344,197 +13309,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9911850c-c656-4cc7-9e45-9e62f247185b")
-		(property "Reference" "RV9"
-			(at 246.126 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e07a9513-8051-437a-a3ef-d2275ea849dc")
-		)
-		(pin "2"
-			(uuid "e4cbcdf7-a1c1-4565-a1b4-4f2287d65b78")
-		)
-		(pin "3"
-			(uuid "ac72da3f-f521-48fe-b144-78ef2ccc72b4")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
 		(at 66.04 134.62 0)
 		(mirror y)
@@ -13560,7 +13334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 144.78 0)
 			(effects
 				(font
@@ -14074,6 +13848,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a40f98ac-7e94-45d6-9e28-600f175143da")
+		(property "Reference" "R38"
+			(at 247.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfe64a59-2eca-4ef0-a978-c714a0449296")
+		)
+		(pin "3"
+			(uuid "e4810afc-e060-458a-9764-062ba1fd7d9b")
+		)
+		(pin "1"
+			(uuid "bc16a68a-d0f4-4498-818f-45a67c912a78")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 264.16 95.25 180)
 		(unit 1)
@@ -14267,16 +14233,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 123.19 180)
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a5452956-9b79-40ec-85db-cf754a1f1fef")
-		(property "Reference" "RV11"
-			(at 246.126 114.046 0)
+		(fields_autoplaced yes)
+		(uuid "a591627d-68f4-46b4-bb01-27dfaccafd22")
+		(property "Reference" "R40"
+			(at 247.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14284,15 +14251,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 246.634 116.078 0)
+			(at 247.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 123.19 0)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14302,7 +14269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14311,7 +14278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14320,7 +14287,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14330,7 +14297,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14307,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,7 +14317,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14360,7 +14327,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14370,7 +14337,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,7 +14347,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14357,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14400,7 +14367,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14410,7 +14377,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14420,7 +14387,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +14397,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 247.65 123.19 0)
+			(at 247.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,19 +14406,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c1813e92-e237-4cd0-b0aa-2d30d7be48e7")
-		)
 		(pin "2"
-			(uuid "f3f86ab6-d40b-4104-83a3-5c7cd597856f")
+			(uuid "41b1ccfd-8075-46fe-b59f-97d08526ec38")
 		)
 		(pin "3"
-			(uuid "5085a311-9a30-4b58-89cc-d960dca52774")
+			(uuid "1e1464b2-cb2e-42ae-aa73-fdb1f41c17fa")
+		)
+		(pin "1"
+			(uuid "7b137794-6e46-43be-a803-fe5e2600cf92")
 		)
 		(instances
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV11")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -14634,26 +14601,43 @@
 		)
 	)
 	(symbol
-		(lib_name "SR1712F-0108-20F0A-N9-N-027_1")
-		(lib_id "Eurorack:SR1712F-0108-20F0A-N9-N-027")
-		(at 148.59 130.81 0)
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9726b20-8236-4218-af47-00d0d7620cf1")
-		(property "Reference" "S1"
-			(at 164.4015 118.11 0)
+		(uuid "a71bb00a-97f2-4819-adb7-3aac131f3b05")
+		(property "Reference" "R36"
+			(at 247.65 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SR1712F-0108-20F0A-N9-N-027"
-			(at 164.4015 120.65 0)
+		(property "Value" "100k"
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14661,28 +14645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Eurorack:1 Pole 8 Step Switch Alpha"
-			(at 170.18 220.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=222"
-			(at 170.18 320.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary Switches 1 POLE 8 POS D SHAFT"
-			(at 163.068 155.956 0)
+		(property "Description" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14690,96 +14654,139 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "27.5"
-			(at 170.18 520.65 0)
+		(property "MF" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "105-SR1712F-18NS"
-			(at 170.18 620.65 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027?qs=8%252Br4Hz5Xir90vqVXg0QR9g%3D%3D"
-			(at 170.18 720.65 0)
+		(property "Package" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Alpha (Taiwan)"
-			(at 170.18 820.65 0)
+		(property "Price" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SR1712F-0108-20F0A-N9-N-027"
-			(at 170.18 920.65 0)
+		(property "Check_prices" ""
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "041411c3-9f92-42c3-b7d2-27233dd88cff")
+		(property "STANDARD" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "e23d6bbe-c23e-4bff-b52e-6cb5cd76a62f")
+		(property "PARTREV" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "3cc0eb92-4aa7-496b-8d52-a8bd889c07e9")
+		(property "SnapEDA_Link" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0808f1cf-4c48-400b-ae3d-2d60aab57408")
-		)
-		(pin "10"
-			(uuid "b889b929-7606-428a-922f-7679f0e3b223")
-		)
-		(pin "MH2"
-			(uuid "b430c98e-e79b-440e-9460-84af54e59592")
-		)
-		(pin "6"
-			(uuid "0bf49f45-4ea3-407e-9fd9-870d51c698d8")
-		)
-		(pin "5"
-			(uuid "61f76177-60cb-4aba-bbb3-77dec1c2f093")
-		)
-		(pin "1"
-			(uuid "52602ca1-b936-4e08-9a20-ce78eb6874b9")
+			(uuid "2585fb01-0d32-4b89-bc08-b3396b293c20")
 		)
 		(pin "3"
-			(uuid "ce52a3a1-a3fd-4cf2-b36a-a2a3cbe0d36d")
+			(uuid "850725f4-f93d-4bcc-b06c-399e439aa7fa")
 		)
-		(pin "7"
-			(uuid "c23d17da-1623-4842-b17d-b16478702931")
-		)
-		(pin "MH1"
-			(uuid "180a405b-cc81-4251-8343-d568072fdee4")
+		(pin "1"
+			(uuid "d71a266d-7c0d-44ef-ab2d-2c23ac56b24a")
 		)
 		(instances
 			(project ""
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "S1")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15179,7 +15186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 54.61 0)
 			(effects
 				(font
@@ -16427,197 +16434,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4a1e81d-6a78-48ee-a27f-4a36921f8f6b")
-		(property "Reference" "RV8"
-			(at 246.126 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419fa87a-8927-479c-9661-6d23a2e5ccff")
-		)
-		(pin "2"
-			(uuid "84b87e15-3297-44cc-9b8e-ab54a387674d")
-		)
-		(pin "3"
-			(uuid "e9106d87-a870-43cc-87fb-3a1e0834f61c")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 19.05 21.59 0)
 		(mirror y)
@@ -17060,6 +16876,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2483f87-ad30-4dd4-aba5-e059eb7377ca")
+		(property "Reference" "R41"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a7f1ef7-774d-4e0b-8a5b-08d27a6e33bb")
+		)
+		(pin "3"
+			(uuid "59f9d54a-7bc2-42e6-bdf9-309f4347b9ab")
+		)
+		(pin "1"
+			(uuid "4836ac66-9b07-449a-afcd-c3e82bc5cd28")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 22.86 90.17 90)
 		(mirror x)
@@ -17261,7 +17269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 34.29 0)
 			(effects
 				(font
@@ -17409,197 +17417,6 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Eurorack:RD901F")
-		(at 247.65 39.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc550ddb-95e9-4a9b-8b85-54ce0165f671")
-		(property "Reference" "RV4"
-			(at 246.126 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.634 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurorack:RD901F_1"
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63a9a5ce-0cb2-4761-be82-3508e5bf3337")
-		)
-		(pin "2"
-			(uuid "02915c96-ddd8-4405-b404-b79d8a12d243")
-		)
-		(pin "3"
-			(uuid "ea6711f2-6523-4689-b8be-49b02354e1ad")
-		)
-		(instances
-			(project "sequencer"
-				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
-					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -17827,7 +17644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -18225,6 +18042,198 @@
 			(project "sequencer"
 				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
+		(at 247.65 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecdde2b9-3a0b-49fd-8bd8-d926e213694f")
+		(property "Reference" "R42"
+			(at 247.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8df96aa4-8ac5-412f-ba9f-068823058542")
+		)
+		(pin "3"
+			(uuid "a8840a33-7e5c-4036-ae7d-30ea70adad1d")
+		)
+		(pin "1"
+			(uuid "51735506-9c4c-456e-9e0f-d6ae15b516a6")
+		)
+		(instances
+			(project "sequencer"
+				(path "/c997e785-a132-463f-bd08-a5a67a697207/af5f9cff-4e95-4ed5-92aa-7f4edc9174b2"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -18812,7 +18821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 66.04 77.47 0)
 			(effects
 				(font

@@ -450,7 +450,9 @@
     "pinned_footprint_libs": [
       "Eurorack"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Eurorack"
+    ]
   },
   "meta": {
     "filename": "sequencer.kicad_pro",

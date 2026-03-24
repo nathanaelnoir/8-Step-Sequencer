@@ -4227,7 +4227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Eurorack:3296W1503LF"
+		(property "Footprint" "Eurorack:Trimmer_Bourns_3296W_50k_THT"
 			(at 215.9 149.86 0)
 			(effects
 				(font
@@ -8121,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eurorack:2MS1T1B1M2QES"
+		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 			(at 203.2 142.24 0)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Eurorack:3296W1503LF"
+		(property "Footprint" "Eurorack:Trimmer_Bourns_3296W_50k_THT"
 			(at 229.87 149.86 0)
 			(effects
 				(font
