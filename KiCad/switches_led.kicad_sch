@@ -6198,7 +6198,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 52.07 180)
+		(at 247.65 52.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6206,7 +6207,7 @@
 		(dnp no)
 		(uuid "133c5655-2467-437f-92b2-d9010e9032fa")
 		(property "Reference" "R37"
-			(at 243.586 55.88 0)
+			(at 241.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6215,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.586 58.42 0)
+			(at 241.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9595,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 123.19 180)
+		(at 247.65 123.19 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9602,7 +9604,7 @@
 		(dnp no)
 		(uuid "557b42d2-7caa-4d12-824c-73298fcf70bc")
 		(property "Reference" "R43"
-			(at 243.84 126.746 0)
+			(at 241.046 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +9612,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.84 129.286 0)
+			(at 241.046 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10892,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 76.2 180)
+		(at 247.65 76.2 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10898,7 +10901,7 @@
 		(dnp no)
 		(uuid "7af56f09-744d-480d-9a13-f8fc14b1c550")
 		(property "Reference" "R39"
-			(at 243.332 80.264 0)
+			(at 241.554 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,7 +10909,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.332 82.804 0)
+			(at 241.554 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13844,7 +13847,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 64.77 180)
+		(at 247.65 64.77 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13852,7 +13856,7 @@
 		(dnp no)
 		(uuid "a40f98ac-7e94-45d6-9e28-600f175143da")
 		(property "Reference" "R38"
-			(at 243.078 68.834 0)
+			(at 241.808 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13860,7 +13864,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.078 71.374 0)
+			(at 241.808 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,7 +14232,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 88.9 180)
+		(at 247.65 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14236,7 +14241,7 @@
 		(dnp no)
 		(uuid "a591627d-68f4-46b4-bb01-27dfaccafd22")
 		(property "Reference" "R40"
-			(at 243.078 92.71 0)
+			(at 241.808 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14244,7 +14249,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.078 95.25 0)
+			(at 241.808 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +14600,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 39.37 180)
+		(at 247.65 39.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14603,7 +14609,7 @@
 		(dnp no)
 		(uuid "a71bb00a-97f2-4819-adb7-3aac131f3b05")
 		(property "Reference" "R36"
-			(at 243.84 43.434 0)
+			(at 241.046 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14611,7 +14617,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.84 45.974 0)
+			(at 241.046 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16869,7 +16875,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 100.33 180)
+		(at 247.65 100.33 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16877,7 +16884,7 @@
 		(dnp no)
 		(uuid "d2483f87-ad30-4dd4-aba5-e059eb7377ca")
 		(property "Reference" "R41"
-			(at 242.824 104.394 0)
+			(at 242.062 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16885,7 +16892,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 242.824 106.934 0)
+			(at 242.062 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18040,7 +18047,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 247.65 111.76 180)
+		(at 247.65 111.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18048,7 +18056,7 @@
 		(dnp no)
 		(uuid "ecdde2b9-3a0b-49fd-8bd8-d926e213694f")
 		(property "Reference" "R42"
-			(at 243.078 115.57 0)
+			(at 241.808 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18056,7 +18064,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.078 118.11 0)
+			(at 241.808 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

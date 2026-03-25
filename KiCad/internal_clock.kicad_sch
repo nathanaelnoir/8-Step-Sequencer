@@ -2956,7 +2956,8 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_Vertical")
-		(at 68.58 45.72 180)
+		(at 68.58 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2964,7 +2965,7 @@
 		(dnp no)
 		(uuid "f6a219c5-6646-4ed9-a537-759fa6f1d682")
 		(property "Reference" "R45"
-			(at 68.072 37.084 0)
+			(at 69.088 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
