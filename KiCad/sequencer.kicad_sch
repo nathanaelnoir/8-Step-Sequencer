@@ -2070,7 +2070,7 @@
 	)
 	(text "RV1 and RV2 \nare \nTrimmer Potentiometer"
 		(exclude_from_sim no)
-		(at 245.872 141.986 0)
+		(at 247.396 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,6 +2107,54 @@
 			)
 		)
 		(uuid "926f8a32-0a57-4716-ae72-73702d46c0cc")
+	)
+	(text "CV OUT"
+		(exclude_from_sim no)
+		(at 208.026 109.728 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "abe482c0-6fe2-4e5d-8aa6-60bcec00092a")
+	)
+	(text "GATE OUT"
+		(exclude_from_sim no)
+		(at 208.026 46.736 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ee617297-3dc4-4fc4-8b1b-58989c4f008a")
+	)
+	(text "RESET IN\n"
+		(exclude_from_sim no)
+		(at 70.866 144.78 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f5641c02-7870-47ac-8b63-77e31d752f33")
+	)
+	(text "CLOCK IN"
+		(exclude_from_sim no)
+		(at 55.372 75.184 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f9b6c41a-18f0-4826-8315-c7757f814528")
 	)
 	(junction
 		(at 215.9 144.78)
@@ -8463,7 +8511,7 @@
 		(dnp no)
 		(uuid "b5ab19e5-42e6-4fcd-b58e-2be0cd77a6c6")
 		(property "Reference" "D2"
-			(at 110.49 81.534 0)
+			(at 115.316 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8520,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 113.0301 83.82 0)
+			(at 117.8561 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)

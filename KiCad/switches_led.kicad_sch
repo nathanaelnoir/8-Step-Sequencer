@@ -3473,7 +3473,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 24.13) (xy 229.87 24.13)
+			(xy 93.98 26.67) (xy 229.87 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +4203,7 @@
 	)
 	(bus
 		(pts
-			(xy 229.87 24.13) (xy 229.87 36.83)
+			(xy 229.87 26.67) (xy 229.87 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4253,7 +4253,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 24.13) (xy 93.98 31.75)
+			(xy 93.98 26.67) (xy 93.98 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5592,7 +5592,7 @@
 		(uuid "90cc9448-db77-40ba-9f2b-64c46c0601fb")
 	)
 	(label "Count[0..7]"
-		(at 137.16 24.13 0)
+		(at 137.16 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6204,10 +6204,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "133c5655-2467-437f-92b2-d9010e9032fa")
 		(property "Reference" "R37"
-			(at 247.65 55.88 0)
+			(at 243.586 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6214,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 58.42 0)
+			(at 243.586 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8552,7 @@
 		(dnp no)
 		(uuid "386f016e-5511-415c-8b37-4171a2e24ba5")
 		(property "Reference" "D8"
-			(at 74.676 43.434 0)
+			(at 75.184 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +8561,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 74.676 40.894 0)
+			(at 75.184 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8924,7 @@
 		(dnp no)
 		(uuid "3b0d761c-616c-4b37-906e-28459ad74d79")
 		(property "Reference" "SW9"
-			(at 66.04 151.13 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,10 +9600,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "557b42d2-7caa-4d12-824c-73298fcf70bc")
 		(property "Reference" "R43"
-			(at 247.65 127 0)
+			(at 243.84 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9610,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 129.54 0)
+			(at 243.84 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9807,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -10333,7 +10330,7 @@
 		(dnp no)
 		(uuid "727a515f-de3b-4dfd-a8df-13cff63d4e05")
 		(property "Reference" "D29"
-			(at 74.93 181.61 0)
+			(at 74.168 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,7 +10339,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 74.93 179.07 0)
+			(at 74.168 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,10 +10896,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7af56f09-744d-480d-9a13-f8fc14b1c550")
 		(property "Reference" "R39"
-			(at 247.65 80.01 0)
+			(at 243.332 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10906,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 82.55 0)
+			(at 243.332 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12021,7 @@
 		(dnp no)
 		(uuid "83a70573-d06f-4140-a5db-79974410d901")
 		(property "Reference" "D18"
-			(at 75.438 89.154 0)
+			(at 74.168 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12030,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 75.438 86.614 0)
+			(at 74.168 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12591,10 +12587,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "877c07c5-0cc9-4070-a16a-109c95d62c5e")
 		(property "Reference" "SW10"
-			(at 66.04 173.99 0)
+			(at 66.04 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,7 +13314,7 @@
 		(dnp no)
 		(uuid "9baeb500-2e2f-4221-8d7d-683384c9a7d0")
 		(property "Reference" "SW7"
-			(at 65.786 129.794 0)
+			(at 65.786 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13855,10 +13850,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a40f98ac-7e94-45d6-9e28-600f175143da")
 		(property "Reference" "R38"
-			(at 247.65 68.58 0)
+			(at 243.078 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13866,7 +13860,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 71.12 0)
+			(at 243.078 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,10 +14234,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a591627d-68f4-46b4-bb01-27dfaccafd22")
 		(property "Reference" "R40"
-			(at 247.65 92.71 0)
+			(at 243.078 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14251,7 +14244,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 95.25 0)
+			(at 243.078 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14608,10 +14601,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a71bb00a-97f2-4819-adb7-3aac131f3b05")
 		(property "Reference" "R36"
-			(at 247.65 43.18 0)
+			(at 243.84 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +14611,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 45.72 0)
+			(at 243.84 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,10 +16875,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2483f87-ad30-4dd4-aba5-e059eb7377ca")
 		(property "Reference" "R41"
-			(at 247.65 104.14 0)
+			(at 242.824 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16894,7 +16885,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 106.68 0)
+			(at 242.824 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17433,7 +17424,7 @@
 		(dnp no)
 		(uuid "e6634cd8-5d8a-4f7d-a762-02cfd6c7f7e5")
 		(property "Reference" "D14"
-			(at 77.216 64.516 0)
+			(at 74.168 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +17433,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 77.216 61.976 0)
+			(at 74.168 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18055,10 +18046,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ecdde2b9-3a0b-49fd-8bd8-d926e213694f")
 		(property "Reference" "R42"
-			(at 247.65 115.57 0)
+			(at 243.078 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18066,7 +18056,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 247.65 118.11 0)
+			(at 243.078 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
