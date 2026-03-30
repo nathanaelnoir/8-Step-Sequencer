@@ -8,7 +8,7 @@
 
 # Modulo-8 Sequencer
 
-Modulo-8 Sequencer is a compact 8-step Eurorack sequencer with internal/external clocking, reset, gate output, and CV output.
+Modulo-8 Sequencer is an 8-step Eurorack sequencer with an onboard clock, external clock/reset inputs, and separate clock, gate, and CV outputs.
 
 ## Contents
 
@@ -22,20 +22,20 @@ Modulo-8 Sequencer is a compact 8-step Eurorack sequencer with internal/external
 
 ## Overview
 
-This repository holds the KiCad 9 project for the Modulo-8 Sequencer. Designed by Dirty Dream / Nathanael Noir, the module is built around a CD4017BE step counter and TL074 analog stage, with eight step controls, eight step LEDs, internal clock generation, external clock/reset connectivity, and Eurorack-standard power.
+This repository contains the KiCad 9 design files for Modulo-8 Sequencer, a straightforward 8-step CV/gate sequencer for Eurorack. Eight pots set the step voltages, the LEDs show the current position, and the module can run from its own clock or from an external pulse. `CLOCK OUT`, `GATE OUT`, `CV OUT`, and `RESET` are all available on the front panel.
 
-The current project title block is `8 Step Sequencer`, while the panel artwork and module name are `Modulo-8 Sequencer`. Revision in the KiCad files is `v1.0`.
+The KiCad title block still says `8 Step Sequencer`, but the panel artwork and module name are `Modulo-8 Sequencer`. Current revision in the project files is `v1.0`.
 
 ## Features
 
-- 8-step sequencer architecture based on `CD4017BE` + `TL074`.
+- 8-step sequencer built around `CD4017BE` and `TL074`.
 - Internal clock plus external `CLOCK IN`.
-- Dedicated `RESET`, `CLOCK OUT`, `GATE OUT`, and `CV OUT` jack connections.
-- Eight step LEDs (`STEP 1` through `STEP 8`) for visual position indication.
-- Eight front-panel 100 k step potentiometers for per-step CV setting.
-- Rotary switch connected across `Count0` to `Count7` for step-count / loop selection.
-- Standard Eurorack power: `+12 V / -12 V / GND` via a 2x5 (10-pin) header.
-- Mixed construction: SMD passives / diodes / transistors plus through-hole jacks, LEDs, switches, trimmers, rotary switch, and power header.
+- Separate `CLOCK OUT`, `GATE OUT`, `CV OUT`, and `RESET` jacks.
+- Eight 100 k step pots for setting the sequence voltage.
+- Eight step LEDs for visual feedback.
+- Rotary switch wired across `Count0` to `Count7` for loop-length / step-count selection.
+- Standard Eurorack power: `+12 V / -12 V / GND` on a 10-pin header.
+- Mixed build: SMD passives, diodes, and transistors, with through-hole panel hardware.
 
 ## Quick start
 
@@ -57,23 +57,22 @@ Note: there is a single PCB layout file (`KiCad/sequencer.kicad_pcb`) for this p
 
 ## Build & assembly notes
 
-- Observe pin-1 orientation for `U1` (`TL074`) and `U3` (`CD4017BE`).
-- Confirm the 10-pin Eurorack power header orientation before first power-up.
-- Front-panel hardware includes five 3.5 mm jacks: `CLOCK OUT`, `GATE OUT`, `CLOCK IN`, `CV OUT`, and `RESET`.
-- The board uses eight 100 k step pots, eight step LEDs, multiple toggle switches, one rotary switch, and two trimmers (`RV1`, `RV2`) that should be calibrated after assembly.
-- Ferrite beads and local rail decoupling are present on the power section; populate exactly as shown in the schematic/PCB.
-- Assembly is a mixed SMD + THT workflow, not a pure through-hole build.
+- Check pin-1 orientation on `U1` (`TL074`) and `U3` (`CD4017BE`) before soldering.
+- Double-check the Eurorack power header orientation before applying power. Getting that wrong is an easy way to ruin the build.
+- Panel hardware is not minimal: five 3.5 mm jacks, eight step pots, eight LEDs, several toggle switches, one rotary switch, and two trimmers (`RV1`, `RV2`).
+- The power section includes ferrite beads and local decoupling on the rails. Populate it exactly as shown.
+- This is a mixed SMD + THT build, so it makes sense to solder the low-profile SMD parts first and leave the panel hardware for last.
 
 ## Testing
 
-1. With the module unpatched, power it from a current-limited Eurorack supply and verify `+12 V`, `-12 V`, and `GND` at the power header and test points.
-2. Confirm the internal clock advances the step LEDs in order and produces pulses at `CLOCK OUT`.
-3. Patch a known external clock into `CLOCK IN` and verify the sequencer advances reliably from the incoming clock.
-4. Trigger `RESET` and verify the sequence returns to the first step / selected loop point.
-5. Check that `GATE OUT` produces the expected rhythmic pattern and that `CV OUT` changes according to the eight step potentiometer settings.
+1. Power the module from a current-limited Eurorack supply and verify `+12 V`, `-12 V`, and `GND` at the header and test points before patching anything.
+2. Let the internal clock run and check that the step LEDs advance in order and that `CLOCK OUT` is pulsing.
+3. Feed a known clock into `CLOCK IN` and confirm the sequence advances cleanly from the external source.
+4. Trigger `RESET` and make sure the sequencer returns to step 1 or to the selected loop point.
+5. Watch `GATE OUT` and `CV OUT` on a scope or with downstream modules and confirm that the outputs follow the programmed steps.
 
 ## License & contributing
 
-No `LICENSE` file is present in the repository yet, so usage terms are not formally declared at the moment.
+No `LICENSE` file has been added to this repository yet. Until that changes, assume the design is shared for reference, not under an explicit open-source license.
 
-If you want, I can add a license file and update this section later. Contributions, issues, and build notes are still useful in the meantime.
+If a license is added later, this section can be updated properly.
