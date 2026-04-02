@@ -5,10 +5,10 @@
 	(uuid "09583559-9b15-4ef8-993a-316d77424a95")
 	(paper "A4")
 	(title_block
-		(title "8 Step Sequencer")
-		(date "2026-03-21")
+		(title "Modulo-8 Seqencer")
+		(date "2026-04-02")
 		(rev "v1.0")
-		(company "Dirty Dream - Nathanael Noir")
+		(company "© Dirty Dream - Nathanael Noir")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"

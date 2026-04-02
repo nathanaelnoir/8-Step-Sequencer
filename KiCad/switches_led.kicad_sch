@@ -5,10 +5,10 @@
 	(uuid "1056ef78-1a95-41f8-81e4-f4a9c5807e53")
 	(paper "A4")
 	(title_block
-		(title "8 Step Sequencer")
-		(date "2026-03-21")
+		(title "Modulo-8 Seqencer")
+		(date "2026-04-02")
 		(rev "v1.0")
-		(company "Dirty Dream - Nathanael Noir")
+		(company "© Dirty Dream - Nathanael Noir")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
