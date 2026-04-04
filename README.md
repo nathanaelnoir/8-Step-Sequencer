@@ -6,7 +6,7 @@
 [![License: TBD](https://img.shields.io/badge/License-TBD-lightgrey)](#license--contributing)
 [![Instagram](https://img.shields.io/badge/Instagram-@moonsofmercury-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/moonsofmercury/)
 
-# $\mathbb{Z}_8$ Modulo-8 Sequencer
+<h1>ℤ₈ Modulo-8 Sequencer</h1>
 
 Modulo-8 Sequencer is an 8-step Eurorack sequencer with an onboard clock, external clock/reset inputs, and separate clock, gate, and CV outputs.
 
