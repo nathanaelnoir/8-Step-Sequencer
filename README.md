@@ -14,8 +14,6 @@ Modulo-8 Sequencer is an 8-step Eurorack sequencer with an onboard clock, extern
 
 - Overview
 - Features
-- Quick start (KiCad 9)
-- Files
 - Build & assembly notes
 - Testing
 - License & contributing
