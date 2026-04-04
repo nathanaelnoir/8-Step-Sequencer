@@ -24,8 +24,6 @@ Modulo-8 Sequencer is an 8-step Eurorack sequencer with an onboard clock, extern
 
 This repository contains the KiCad 9 design files for Modulo-8 Sequencer, a straightforward 8-step CV/gate sequencer for Eurorack. Eight pots set the step voltages, the LEDs show the current position, and the module can run from its own clock or from an external pulse. `CLOCK OUT`, `GATE OUT`, `CV OUT`, and `RESET` are all available on the front panel.
 
-The KiCad title block still says `8 Step Sequencer`, but the panel artwork and module name are `Modulo-8 Sequencer`. Current revision in the project files is `v1.0`.
-
 ## Features
 
 - 8-step sequencer built around `CD4017BE` and `TL074`.
@@ -36,24 +34,6 @@ The KiCad title block still says `8 Step Sequencer`, but the panel artwork and m
 - Rotary switch wired across `Count0` to `Count7` for loop-length / step-count selection.
 - Standard Eurorack power: `+12 V / -12 V / GND` on a 10-pin header.
 - Mixed build: SMD passives, diodes, and transistors, with through-hole panel hardware.
-
-## Quick start
-
-1. Install KiCad 9.
-2. Open the project: `KiCad/sequencer.kicad_pro`.
-3. Review the hierarchical sheets, then run ERC/DRC before exporting manufacturing files.
-
-## Files
-
-- `KiCad/sequencer.kicad_sch` - top-level schematic
-- `KiCad/internal_clock.kicad_sch` - internal clock sheet
-- `KiCad/switches_led.kicad_sch` - step switching / LED / CV selection sheet
-- `KiCad/power.kicad_sch` - Eurorack power sheet
-- `KiCad/sequencer.kicad_pcb` - PCB
-- `KiCad/sequencer.kicad_pro` - KiCad project file
-- `KiCad/sequencer.kicad_prl` - local KiCad project state
-
-Note: there is a single PCB layout file (`KiCad/sequencer.kicad_pcb`) for this project.
 
 ## Build & assembly notes
 
